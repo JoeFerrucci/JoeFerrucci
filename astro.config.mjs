@@ -1,6 +1,6 @@
 // @ts-check
 import { defineConfig } from 'astro/config';
-import cloudflare from '@astrojs/cloudflare';
+import vercel from '@astrojs/vercel';
 import tailwindcss from '@tailwindcss/vite';
 import react from '@astrojs/react';
 import mdx from '@astrojs/mdx';
@@ -22,9 +22,7 @@ const prettyCodeOptions = {
 // https://astro.build/config
 export default defineConfig({
   site: CONFIG.site.url,
-  output: 'server',
-
-  adapter: cloudflare(),
+  adapter: vercel(),
 
   vite: {
     plugins: [tailwindcss()],
