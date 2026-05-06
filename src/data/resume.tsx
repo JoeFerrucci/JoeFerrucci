@@ -1,5 +1,5 @@
 import { Icons } from "@/components/icons";
-import { House } from "lucide-react";
+import { House, Network, Layers, Zap, Sparkles, Mic, Database, Users, Award, Briefcase, Rocket, Building2 } from "lucide-react";
 import { Swift } from "@/components/ui/svgs/swift";
 import { SwiftUI } from "@/components/ui/svgs/swiftui";
 import { Apple } from "@/components/ui/svgs/apple";
@@ -8,6 +8,10 @@ import { Typescript } from "@/components/ui/svgs/typescript";
 import { Python } from "@/components/ui/svgs/python";
 import { Golang } from "@/components/ui/svgs/golang";
 import { Postgresql } from "@/components/ui/svgs/postgresql";
+import { Xcode } from "@/components/ui/svgs/xcode";
+import { GraphQL } from "@/components/ui/svgs/graphql";
+import { Figma } from "@/components/ui/svgs/figma";
+import { GitHubActions } from "@/components/ui/svgs/githubactions";
 
 export const DATA = {
   name: "Joe Ferrucci",
@@ -16,9 +20,9 @@ export const DATA = {
   location: "St. Louis, MO",
   locationLink: "https://www.google.com/maps/place/st+louis+mo",
   description:
-    "Principal Mobile + AI Engineer. I build high-quality iOS apps that feel personal and alive.",
+    "Principal Mobile + AI Engineer. I build high-quality apps and AI systems — and lead the teams that ship them.",
   summary:
-    "I've spent 10+ years building and leading mobile products — from [NASA JPL](/#work) to [Instacart](/#work) to [founding my own startups](/#work). I specialize in Swift and SwiftUI, iOS architecture, and shipping polished, performant apps at scale. I've grown engineering teams, taken apps from 0 to 350k users, and led end-to-end from system design to App Store release.",
+    "I've spent 10+ years building and leading high-impact mobile products — from [NASA JPL](https://jpl.nasa.gov/) to [Instacart](https://instacart.com/) to [founding my own startups](/#work). I specialize in Swift, SwiftUI, and iOS/macOS architecture, with a track record of taking apps from 0 to 350k users, owning initiatives end-to-end from system design to CI/CD to App Store release, and leading engineering teams that care about polish, performance, and craft.\n\nI stay close to the edge of AI — building custom agentic workflows that have meaningfully multiplied my output and quality, because knowing how to leverage AI effectively is its own kind of senior skill. I'm drawn to teams that value craftsmanship: thoughtful animations, fluid interactions, and software that feels personal and alive.",
   avatarUrl: "/picofme.png",
   ogImage: "/og_image.png",
   sections: {
@@ -54,11 +58,30 @@ export const DATA = {
     { name: "Swift", icon: Swift },
     { name: "SwiftUI", icon: SwiftUI },
     { name: "iOS / macOS", icon: Apple },
+    { name: "UIKit", icon: Layers },
+    { name: "Objective-C", icon: Apple },
+    { name: "Xcode", icon: Xcode },
+    { name: "MVVM", icon: Network },
+    { name: "System Architecture", icon: Network },
+    { name: "Reactive Programming", icon: Zap },
+    { name: "CI/CD", icon: GitHubActions },
+    { name: "GraphQL", icon: GraphQL },
     { name: "Go", icon: Golang },
     { name: "React", icon: ReactLight },
     { name: "TypeScript", icon: Typescript },
     { name: "Python", icon: Python },
     { name: "PostgreSQL", icon: Postgresql },
+    { name: "AI", icon: Sparkles },
+    { name: "RAG", icon: Database },
+    { name: "Knowledge Graph Embeddings", icon: Network },
+    { name: "Speech Synthesis", icon: Mic },
+    { name: "Cross-functional Coordination", icon: Users },
+    { name: "Cross-functional Team Leadership", icon: Users },
+    { name: "Hands-on Technical Leadership", icon: Award },
+    { name: "Management", icon: Briefcase },
+    { name: "Product Design", icon: Figma },
+    { name: "Mobile Enterprise", icon: Building2 },
+    { name: "Product Development", icon: Rocket },
   ],
   navbar: [
     { href: "/", icon: House, label: "Home" },
@@ -112,6 +135,7 @@ export const DATA = {
       end: "March 2026",
       description:
         "First and sole engineer. Built a voice-first mobile product from concept to production, transforming spoken input into structured, searchable knowledge and actionable insights.",
+      skills: ["Swift", "SwiftUI", "iOS", "AI", "RAG", "Speech Synthesis", "Knowledge Graph Embeddings"],
     },
     {
       company: "Glue AI",
@@ -124,6 +148,7 @@ export const DATA = {
       end: "January 2026",
       description:
         "Co-founded and backed by David O. Sacks (Craft Ventures; All-In Podcast). Led iOS and macOS development for a thread-first, AI-first workplace productivity platform with 100s of MCP & tool integrations.",
+      skills: ["Swift", "SwiftUI", "UIKit", "MVVM", "System Architecture", "Platform Engineering", "CI/CD", "Xcode", "Hands-on Technical Leadership"],
     },
     {
       company: "Bunches",
@@ -136,6 +161,7 @@ export const DATA = {
       end: "January 2025",
       description:
         "Built and scaled the mobile apps from 0 to 350k users in under 12 months. Grew the engineering team from 1 to 5. Led infrastructure, developer productivity, and cross-functional collaboration across a sports fandom platform.",
+      skills: ["Swift", "SwiftUI", "UIKit", "GraphQL", "MVVM", "System Architecture", "Platform Engineering", "CI/CD", "Product Design", "Cross-functional Team Leadership"],
     },
     {
       company: "Instacart",
@@ -148,6 +174,7 @@ export const DATA = {
       end: "2021",
       description:
         "Led projects on the In-Store Fulfillment and Earnings/Marketplace teams. Championed platform-wide initiatives improving app performance, code quality, and developer experience across Logistics, Growth, and Staffing.",
+      skills: ["Swift", "SwiftUI", "UIKit", "Objective-C", "MVVM", "Reactive Programming", "System Architecture", "Platform Engineering", "CI/CD", "Cross-functional Team Leadership"],
     },
     {
       company: "Jobr (Acquired by Monster.com)",
@@ -160,6 +187,7 @@ export const DATA = {
       end: "2019",
       description:
         "Sole iOS engineer for Jobr and Jobr for Business, built from scratch in Swift — achieving #1 in the App Store Business section. Post-acquisition by Monster.com, directed all client app development (iOS, Android, Web) and established engineering standards org-wide.",
+      skills: ["Swift", "Objective-C", "UIKit", "SwiftUI", "MVVM", "System Architecture", "Management", "CI/CD", "Hands-on Technical Leadership"],
     },
     {
       company: "Foodster",
@@ -172,6 +200,7 @@ export const DATA = {
       end: "2015",
       description:
         "Built a food delivery app from the ground up — iOS client, web client, and backend infrastructure — focused on clean architecture, scalability, and fast iteration.",
+      skills: ["Swift", "Objective-C", "UIKit", "MVVM", "System Architecture", "Management", "CI/CD", "Product Development"],
     },
     {
       company: "NASA JPL",
@@ -184,6 +213,7 @@ export const DATA = {
       end: "2014",
       description:
         "Worked on the Earth Observing System (EOS) team — large-scale data processing and analysis. Collaborated with scientists and engineers on full-stack solutions for complex data collection and management challenges.",
+      skills: ["Swift", "System Architecture", "CI/CD", "Cross-functional Coordination", "Product Development"],
     },
   ],
   education: [
@@ -200,10 +230,10 @@ export const DATA = {
     {
       title: "BookLeaf",
       href: "https://www.bookleaf.us",
-      dates: "2025 - Present",
+      dates: "2013 - Present",
       active: true,
       description:
-        "Scheduling SaaS that handles 1:1 booking links and group meeting polls in one place. Syncs Google Calendar, blocks conflicts automatically, and generates Google Meet or Zoom links for every booking — no back-and-forth needed.",
+        "Scheduling SaaS that kills the back-and-forth. Share one link — guests pick a slot, conflicts are auto-blocked from your calendar, and a Google Meet or Zoom link is generated automatically. Need to coordinate a group? Polls let guests vote without signing up; one click finalizes and notifies everyone.",
       technologies: ["Next.js", "TypeScript", "Supabase", "Stripe", "Tailwind CSS"],
       links: [
         {
@@ -218,11 +248,11 @@ export const DATA = {
     {
       title: "TrailMix",
       href: "https://www.trailmix.club",
-      dates: "2025 - Present",
+      dates: "2024 - Present",
       active: true,
       description:
-        "Endurance training intelligence for iPhone. Combines sleep, HRV, workload, route context, weather, and calendar to give you one clear daily call — hard, easy, or off. Built for trail runners, road runners, and climbers who want to train from readiness, not guesswork.",
-      technologies: ["Swift", "SwiftUI", "HealthKit", "CoreLocation"],
+        "Real-time AI running coach for Apple Watch. Ask anything mid-run — TrailMix listens via your Watch microphone and responds through its speaker, hands-free and eyes-forward. Live pace, heart rate, distance, and elapsed time at a glance. Trails, roads, treadmills — with or without signal.",
+      technologies: ["Swift", "SwiftUI", "watchOS", "HealthKit", "CoreLocation"],
       links: [
         {
           type: "Website",
@@ -231,6 +261,42 @@ export const DATA = {
         },
       ],
       image: "/projects/trailmix.png",
+      video: "",
+    },
+    {
+      title: "MultiController",
+      href: "https://github.com/JoeFerrucci/MultiController",
+      dates: "2024 - Present",
+      active: false,
+      description:
+        "One wrist. Every room. Instantly discovers every Roku TV and Sonos speaker on your network via ECP and SSDP — no setup, no pairing codes, no nonsense. Full remote control from iPhone, iPad, and Mac. On Apple Watch, spin the Digital Crown to dial Sonos volume or swipe between Roku navigation pages.",
+      technologies: ["Swift", "SwiftUI", "watchOS"],
+      links: [
+        {
+          type: "GitHub",
+          href: "https://github.com/JoeFerrucci/MultiController",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "/projects/multicontroller.jpg",
+      video: "",
+    },
+    {
+      title: "Hodu Coffee",
+      href: "https://www.hoducoffee.com",
+      dates: "2019 - Present",
+      active: true,
+      description:
+        "Hodu (הוֹדוּ) is an ancient Hebrew command — not a feeling, but an instruction: give thanks, now, together. A specialty coffee roaster built on that single idea. Single-origin Ethiopia, Colombia, and Guatemala, roasted Tuesday and Friday, shipped before the week ends. Coffee is the occasion. Gratitude is the point.",
+      technologies: [],
+      links: [
+        {
+          type: "Website",
+          href: "https://www.hoducoffee.com",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "/projects/hodu.png",
       video: "",
     },
     {
@@ -249,42 +315,6 @@ export const DATA = {
         },
       ],
       image: "/projects/f3nation.png",
-      video: "",
-    },
-    {
-      title: "Hodu Coffee",
-      href: "https://www.hoducoffee.com",
-      dates: "2026 - Present",
-      active: true,
-      description:
-        "A specialty coffee roaster built on a single idea — that even the cup in your hand is a gift worth naming. Hodu (호두, Korean for walnut) is a brand rooted in gratitude, craft, and intentional slowness. Direct-to-consumer beans roasted and shipped fresh.",
-      technologies: [],
-      links: [
-        {
-          type: "Website",
-          href: "https://www.hoducoffee.com",
-          icon: <Icons.globe className="size-3" />,
-        },
-      ],
-      image: "/projects/hodu.png",
-      video: "",
-    },
-    {
-      title: "MultiController",
-      href: "https://github.com/JoeFerrucci/MultiController",
-      dates: "",
-      active: false,
-      description:
-        "An iOS library for cleanly managing multiple child view controllers within a parent container. Simplifies the boilerplate around containment APIs, transitions, and lifecycle management — so you can focus on the experience, not the plumbing.",
-      technologies: ["Swift", "UIKit"],
-      links: [
-        {
-          type: "GitHub",
-          href: "https://github.com/JoeFerrucci/MultiController",
-          icon: <Icons.github className="size-3" />,
-        },
-      ],
-      image: "",
       video: "",
     },
   ],
