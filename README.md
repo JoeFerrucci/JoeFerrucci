@@ -1,44 +1,167 @@
-<!--
-**JoeFerrucci/JoeFerrucci** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+<div align="center">
 
-Here are some ideas to get you started:
+### 👉 [View my full portfolio at joef.us](https://joef.us)
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+</div>
 
-# Hello, Universe!
+---
 
-- 🧠 **What I build:** consumer products, developer tools, mental health–focused tools (fitness apps, journaling apps, mood trackers, habit trackers)
+<div align="center">
 
-- 🎨 **What I care about:** calm, accessible UI + thoughtful UX details
+<img src="https://raw.githubusercontent.com/JoeFerrucci/JoeFerrucci/master/public/picofme.png" width="130" />
 
-- 🧩 **Tech I’m using:** SwiftUI, Swift Concurrency, Various Datastores (GRDB, SwiftData, CoreData), Combine, Swift Testing
+# Hi, I'm Joe
 
-- 🚀 **Fun fact:** I lead an F3 Nation region of 300+ men.
+**Principal Mobile + AI Engineer.**<br/>
+I build apps, AI systems, and ***the teams that ship them.***
 
-### Connect with me
-[LinkedIn](https://www.linkedin.com/in/joeferrucci/) • [GitHub](https://github.com/JoeFerrucci)
+[![Portfolio](https://img.shields.io/badge/joef.us-000000?style=for-the-badge&logo=safari&logoColor=white)](https://joef.us)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/joeferrucci/)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/JoeFerrucci)
 
-[![20% Discount off Scrimba](https://i.ibb.co/HD3x73NB/scrimbassadors-cta.png)]([https://scrimba.com/scrimbassadors](https://scrimba.com/?via=u426c822))
+</div>
 
+---
+
+## About
+
+I've spent 10+ years building and leading high-impact mobile products — from [NASA JPL](https://jpl.nasa.gov/) to [Instacart](https://instacart.com/) to founding my own startups. I specialize in Swift, SwiftUI, and iOS/macOS architecture, with a track record of taking apps from 0 to 350k users, owning initiatives end-to-end from system design to CI/CD to App Store release, and leading engineering teams that care about polish, performance, and craft.
+
+I stay close to the edge of AI — building custom agentic workflows that have meaningfully multiplied my output and quality, because knowing how to leverage AI effectively is its own kind of senior skill. I'm drawn to teams that value craftsmanship: thoughtful animations, fluid interactions, and software that feels personal and alive.
+
+---
+
+## Work Experience
+
+<table>
+<tr>
+<td><img src="https://media.licdn.com/dms/image/v2/D560BAQELeFI9NbbfBw/company-logo_200_200/B56ZmbfOJZHkAI-/0/1759250277395/taiyaki_ai_logo?e=1779926400&v=beta&t=iejgmb9vZljiRwA9gqTDf6bbNTDoUwBj5x9Su_ZWKSA" width="32" /></td>
+<td><strong>Taya Necklace</strong> — Founding Engineer <em>(Jan 2026 – Mar 2026)</em><br/>First and sole engineer. Built a voice-first mobile product from concept to production.</td>
+</tr>
+<tr>
+<td><img src="https://www.google.com/s2/favicons?domain=glue.ai&sz=64" width="32" /></td>
+<td><strong>Glue AI</strong> — Principal iOS/macOS Engineer <em>(Mar 2025 – Jan 2026)</em><br/>Led iOS and macOS development for a thread-first, AI-first workplace productivity platform backed by David O. Sacks.</td>
+</tr>
+<tr>
+<td><img src="https://raw.githubusercontent.com/JoeFerrucci/JoeFerrucci/master/public/bunches.png" width="32" /></td>
+<td><strong>Bunches</strong> — Founding Engineer <em>(2020 – Jan 2025)</em><br/>Built and scaled mobile apps from 0 to 350k users in under 12 months. Grew the engineering team from 1 to 5.</td>
+</tr>
+<tr>
+<td><img src="https://www.google.com/s2/favicons?domain=instacart.com&sz=64" width="32" /></td>
+<td><strong>Instacart</strong> — Staff iOS Engineer <em>(2019 – 2021)</em><br/>Led projects on In-Store Fulfillment and Earnings/Marketplace teams. Championed platform-wide initiatives org-wide.</td>
+</tr>
+<tr>
+<td><img src="https://www.google.com/s2/favicons?domain=monster.com&sz=64" width="32" /></td>
+<td><strong>Jobr (Acquired by Monster.com)</strong> — Head of Engineering <em>(2015 – 2019)</em><br/>Sole iOS engineer for Jobr — achieved #1 in App Store Business. Post-acquisition, directed all client app development.</td>
+</tr>
+<tr>
+<td><img src="https://avatar.vercel.sh/foodster?size=40" width="32" /></td>
+<td><strong>Foodster</strong> — Technical Founder & CEO <em>(2014 – 2015)</em><br/>Built a food delivery app from the ground up — iOS client, web client, and backend infrastructure.</td>
+</tr>
+<tr>
+<td><img src="https://www.google.com/s2/favicons?domain=jpl.nasa.gov&sz=64" width="32" /></td>
+<td><strong>NASA JPL</strong> — Lead Software Engineer <em>(2013 – 2014)</em><br/>Worked on the Earth Observing System (EOS) team — large-scale data processing and analysis.</td>
+</tr>
+</table>
+
+---
+
+## Skills
+
+![Swift](https://img.shields.io/badge/Swift-F05138?style=flat-square&logo=swift&logoColor=white)
+![SwiftUI](https://img.shields.io/badge/SwiftUI-0AAFE6?style=flat-square&logo=swift&logoColor=white)
+![iOS](https://img.shields.io/badge/iOS%20%2F%20macOS-000000?style=flat-square&logo=apple&logoColor=white)
+![UIKit](https://img.shields.io/badge/UIKit-555?style=flat-square)
+![Objective-C](https://img.shields.io/badge/Objective--C-555?style=flat-square)
+![Xcode](https://img.shields.io/badge/Xcode-147EFB?style=flat-square&logo=xcode&logoColor=white)
+![watchOS](https://img.shields.io/badge/watchOS-000000?style=flat-square&logo=apple&logoColor=white)
+![MVVM](https://img.shields.io/badge/MVVM-555?style=flat-square)
+![Reactive Programming](https://img.shields.io/badge/Reactive%20Programming-555?style=flat-square)
+![CI/CD](https://img.shields.io/badge/CI%2FCD-2088FF?style=flat-square&logo=githubactions&logoColor=white)
+![GraphQL](https://img.shields.io/badge/GraphQL-E10098?style=flat-square&logo=graphql&logoColor=white)
+![Go](https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white)
+![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+![AI](https://img.shields.io/badge/AI-555?style=flat-square)
+![RAG](https://img.shields.io/badge/RAG-555?style=flat-square)
+
+---
 
 ## Projects
 
-| | |
-|---|---|
-| <br>**[Nuxt SaaS Kit](https://scrimba.com)** <img src="https://img.icons8.com/?size=120&id=4564MUHGIIbe&format=png" alt="Icon" width="18" /><br><br>Production-ready Nuxt starter with tenant dashboards, integrated billing, and Supabase + Stripe authentication.<br><br><sub>Nuxt 3 • Supabase • Stripe</sub><br><br> | <br>**[AI Incident Reporter](https://scrimba.com)** <img src="https://img.icons8.com/?size=96&id=kI89qXDv4f5O&format=png" alt="Icon" width="18" /><br><br>Cloudflare Worker that aggregates logs, detects anomalies, and delivers executive-ready incident briefs.<br><br><sub>Cloudflare • OpenAI • Postgres</sub><br><br> |
-| <br>**[Field Notes](https://scrimba.com)** <img src="https://img.icons8.com/?size=160&id=rhEyFGuPqTV7&format=png" alt="Icon" width="18" /><br><br>Research workspace unifying interviews, annotated highlights, and stakeholder-ready summaries.<br><br><sub>Vue • Supabase • Tailwind</sub><br><br> | <br>**[Customer Health Console](https://scrimba.com)** <img src="https://img.icons8.com/?size=96&id=upd5xh7hPe0R&format=png" alt="Icon" width="18" /><br><br>Success team dashboard tracking product usage signals, renewal risk, and proactive outreach actions.<br><br><sub>Next.js • PlanetScale • Tailwind</sub><br><br> |
-| | |
+<table>
+<tr>
+<td width="50%" valign="top">
 
-## Certifications
+**[BookLeaf](https://www.bookleaf.us)** &nbsp; *(2013 – Present)*
 
-[![Certificate](https://img.shields.io/badge/fullstack%20developer%20path-165DFC?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDA4IiBoZWlnaHQ9IjEzNiIgdmlld0JveD0iMCAwIDQwOCAxMzYiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxwYXRoIGQ9Ik0xMzUuOTkgMTM2TDAgMTM2TDAgNjhMNjguMDA5OCA2OEw2OC4wMDk4IDBMMjA0IDBMMjA0IDY4TDEzNS45OSA2OEwxMzUuOTkgMTM2WiIgZmlsbD0id2hpdGUiLz4KPHBhdGggZD0iTTQwOCAxMzZMMzQwIDEzNlYxMzUuOTZMMjcyIDEzNS45NkwyNzIgNjcuOTZMMzQwIDY3Ljk2TDM0MCAwTDQwOCAwTDQwOCAxMzZaIiBmaWxsPSJ3aGl0ZSIvPgo8L3N2Zz4K&logoColor=white)](https://scrimba.com)
-[![Certificate](https://img.shields.io/badge/backend%20developer%20path-009788?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDA4IiBoZWlnaHQ9IjEzNiIgdmlld0JveD0iMCAwIDQwOCAxMzYiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxwYXRoIGQ9Ik0xMzUuOTkgMTM2TDAgMTM2TDAgNjhMNjguMDA5OCA2OEw2OC4wMDk4IDBMMjA0IDBMMjA0IDY4TDEzNS45OSA2OEwxMzUuOTkgMTM2WiIgZmlsbD0id2hpdGUiLz4KPHBhdGggZD0iTTQwOCAxMzZMMzQwIDEzNlYxMzUuOTZMMjcyIDEzNS45NkwyNzIgNjcuOTZMMzQwIDY3Ljk2TDM0MCAwTDQwOCAwTDQwOCAxMzZaIiBmaWxsPSJ3aGl0ZSIvPgo8L3N2Zz4K&logoColor=white)](https://scrimba.com)
-[![Certificate](https://img.shields.io/badge/frontend%20developer%20path-8022FF?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDA4IiBoZWlnaHQ9IjEzNiIgdmlld0JveD0iMCAwIDQwOCAxMzYiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxwYXRoIGQ9Ik0xMzUuOTkgMTM2TDAgMTM2TDAgNjhMNjguMDA5OCA2OEw2OC4wMDk4IDBMMjA0IDBMMjA0IDY4TDEzNS45OSA2OEwxMzUuOTkgMTM2WiIgZmlsbD0id2hpdGUiLz4KPHBhdGggZD0iTTQwOCAxMzZMMzQwIDEzNlYxMzUuOTZMMjcyIDEzNS45NkwyNzIgNjcuOTZMMzQwIDY3Ljk2TDM0MCAwTDQwOCAwTDQwOCAxMzZaIiBmaWxsPSJ3aGl0ZSIvPgo8L3N2Zz4K&logoColor=white)](https://scrimba.com)
+<img src="https://raw.githubusercontent.com/JoeFerrucci/JoeFerrucci/master/public/projects/bookleaf.png" width="100%" />
+
+Scheduling SaaS that kills the back-and-forth. Share one link — guests pick a slot, conflicts are auto-blocked, and a Google Meet or Zoom link is generated automatically.
+
+`Next.js` `TypeScript` `Supabase` `Stripe`
+
+</td>
+<td width="50%" valign="top">
+
+**[TrailMix](https://www.trailmix.club)** &nbsp; *(2024 – Present)*
+
+<img src="https://raw.githubusercontent.com/JoeFerrucci/JoeFerrucci/master/public/projects/trailmix.png" width="100%" />
+
+Real-time AI running coach for Apple Watch. Ask anything mid-run — listens via Watch microphone, responds through the speaker. Hands-free, eyes-forward.
+
+`Swift` `SwiftUI` `watchOS` `HealthKit`
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+**[MultiController](https://github.com/JoeFerrucci/MultiController)** &nbsp; *(2024 – Present)*
+
+<img src="https://raw.githubusercontent.com/JoeFerrucci/JoeFerrucci/master/public/projects/multicontroller.jpg" width="100%" />
+
+One wrist. Every room. Instantly discovers every Roku TV and Sonos speaker on your network via ECP and SSDP — no setup, no pairing codes.
+
+`Swift` `SwiftUI` `watchOS`
+
+</td>
+<td width="50%" valign="top">
+
+**[Hodu Coffee](https://www.hoducoffee.com)** &nbsp; *(2019 – Present)*
+
+<img src="https://raw.githubusercontent.com/JoeFerrucci/JoeFerrucci/master/public/projects/hodu.png" width="100%" />
+
+Hodu (הוֹדוּ) is Hebrew for "give thanks" — a specialty coffee roaster built on one idea: the cup in your hands is a gift worth naming.
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+**[F3 Nation](https://www.f3nation.com)** &nbsp; *(2020 – Present)*
+
+<img src="https://raw.githubusercontent.com/JoeFerrucci/JoeFerrucci/master/public/projects/f3nation.png" width="100%" />
+
+Free, peer-led men's fitness and leadership community. I lead an F3 region of 300+ men in the St. Louis area.
+
+</td>
+<td></td>
+</tr>
+</table>
+
+---
+
+## Education
+
+🎓 **University of California, Davis** — M.S. / B.S., Computer Science & Statistics
+
+---
+
+<div align="center">
+
+📫 [joeferrucci33@gmail.com](mailto:joeferrucci33@gmail.com) &nbsp;·&nbsp; 🌐 [joef.us](https://joef.us) &nbsp;·&nbsp; 💼 [LinkedIn](https://www.linkedin.com/in/joeferrucci/)
+
+</div>
