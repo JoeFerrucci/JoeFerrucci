@@ -22,7 +22,7 @@ export const DATA = {
   description:
     "Principal Mobile + AI Engineer. I build high-quality apps and AI systems — and lead the teams that ship them.",
   summary:
-    "I've spent 10+ years building and leading high-impact mobile products — from [NASA JPL](https://jpl.nasa.gov/) to [Instacart](https://instacart.com/) to [founding my own startups](/#work). I specialize in Swift, SwiftUI, and iOS/macOS architecture, with a track record of taking apps from 0 to 350k users, owning initiatives end-to-end from system design to CI/CD to App Store release, and leading engineering teams that care about polish, performance, and craft.\n\nI stay close to the edge of AI — building custom agentic workflows that have meaningfully multiplied my output and quality, because knowing how to leverage AI effectively is its own kind of senior skill. I'm drawn to teams that value craftsmanship: thoughtful animations, fluid interactions, and software that feels personal and alive.",
+    "I've spent 10+ years building and leading high-impact mobile products — from [NASA JPL](https://jpl.nasa.gov/) to [Instacart](https://instacart.com/) to [founding my own startups](/#work). I specialize in Swift, SwiftUI, and iOS/macOS architecture, with a track record of taking apps from zero to hundreds of thousands of users, owning initiatives end-to-end from system design to CI/CD to App Store release, and leading engineering teams that care about polish, performance, and craft.\n\nI stay close to the edge of AI — building custom agentic workflows that have meaningfully multiplied my output and quality, because knowing how to leverage AI effectively is its own kind of senior skill. I'm drawn to teams that value craftsmanship: thoughtful animations, fluid interactions, and software that feels personal and alive.",
   avatarUrl: "/picofme.png",
   ogImage: "/og_image.png",
   sections: {
@@ -160,7 +160,7 @@ export const DATA = {
       start: "2020",
       end: "January 2025",
       description:
-        "Built and scaled the mobile apps from 0 to 350k users in under 12 months. Grew the engineering team from 1 to 5. Led infrastructure, developer productivity, and cross-functional collaboration across a sports fandom platform.",
+        "Built and scaled the mobile apps from zero to hundreds of thousands of users in under 12 months. Grew the engineering team from 1 to 5. Led infrastructure, developer productivity, and cross-functional collaboration across a sports fandom platform.",
       skills: ["Swift", "SwiftUI", "UIKit", "GraphQL", "MVVM", "System Architecture", "Platform Engineering", "CI/CD", "Product Design", "Cross-functional Team Leadership"],
     },
     {

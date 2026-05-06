@@ -25,7 +25,7 @@ I build apps, AI systems, and ***the teams that ship them.***
 
 ## About
 
-I've spent 10+ years building and leading high-impact mobile products — from [NASA JPL](https://jpl.nasa.gov/) to [Instacart](https://instacart.com/) to founding my own startups. I specialize in Swift, SwiftUI, and iOS/macOS architecture, with a track record of taking apps from 0 to 350k users, owning initiatives end-to-end from system design to CI/CD to App Store release, and leading engineering teams that care about polish, performance, and craft.
+I've spent 10+ years building and leading high-impact mobile products — from [NASA JPL](https://jpl.nasa.gov/) to [Instacart](https://instacart.com/) to founding my own startups. I specialize in Swift, SwiftUI, and iOS/macOS architecture, with a track record of taking apps from zero to hundreds of thousands of users, owning initiatives end-to-end from system design to CI/CD to App Store release, and leading engineering teams that care about polish, performance, and craft.
 
 I stay close to the edge of AI — building custom agentic workflows that have meaningfully multiplied my output and quality, because knowing how to leverage AI effectively is its own kind of senior skill. I'm drawn to teams that value craftsmanship: thoughtful animations, fluid interactions, and software that feels personal and alive.
 
@@ -44,7 +44,7 @@ I stay close to the edge of AI — building custom agentic workflows that have m
 </tr>
 <tr>
 <td><img src="https://raw.githubusercontent.com/JoeFerrucci/JoeFerrucci/master/public/bunches.png" width="32" /></td>
-<td><strong>Bunches</strong> — Founding Engineer <em>(2020 – Jan 2025)</em><br/>Built and scaled mobile apps from 0 to 350k users in under 12 months. Grew the engineering team from 1 to 5.</td>
+<td><strong>Bunches</strong> — Founding Engineer <em>(2020 – Jan 2025)</em><br/>Built and scaled mobile apps from zero to hundreds of thousands of users in under 12 months. Grew the engineering team from 1 to 5.</td>
 </tr>
 <tr>
 <td><img src="https://www.google.com/s2/favicons?domain=instacart.com&sz=64" width="32" /></td>
