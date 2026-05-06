@@ -8,6 +8,9 @@ import { Typescript } from "@/components/ui/svgs/typescript";
 import { Python } from "@/components/ui/svgs/python";
 import { Golang } from "@/components/ui/svgs/golang";
 import { Postgresql } from "@/components/ui/svgs/postgresql";
+import { Nodejs } from "@/components/ui/svgs/nodejs";
+import { Docker } from "@/components/ui/svgs/docker";
+import { Kubernetes } from "@/components/ui/svgs/kubernetes";
 import { Xcode } from "@/components/ui/svgs/xcode";
 import { GraphQL } from "@/components/ui/svgs/graphql";
 import { Figma } from "@/components/ui/svgs/figma";
@@ -70,7 +73,10 @@ export const DATA = {
     { name: "React", icon: ReactLight },
     { name: "TypeScript", icon: Typescript },
     { name: "Python", icon: Python },
+    { name: "Node.js", icon: Nodejs },
     { name: "PostgreSQL", icon: Postgresql },
+    { name: "Docker", icon: Docker },
+    { name: "Kubernetes", icon: Kubernetes },
     { name: "AI", icon: Sparkles },
     { name: "RAG", icon: Database },
     { name: "Knowledge Graph Embeddings", icon: Network },
