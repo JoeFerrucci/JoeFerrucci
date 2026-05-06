@@ -1,0 +1,81 @@
+---
+
+---
+
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<link rel="icon" href="/favicon.ico" />
+		<meta name="viewport" content="width=device-width" />
+		<meta name="generator" content={Astro.generator} />
+		<title>Joe Ferrucci</title>
+		<style>
+			*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+			body {
+				font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+				background: #fff;
+				color: #111;
+				min-height: 100svh;
+				display: flex;
+				align-items: center;
+				justify-content: center;
+			}
+
+			@media (prefers-color-scheme: dark) {
+				body { background: #0a0a0a; color: #ededed; }
+				a { color: #aaa; }
+				a:hover { color: #fff; }
+			}
+
+			main {
+				text-align: center;
+				display: flex;
+				flex-direction: column;
+				gap: 1.5rem;
+			}
+
+			h1 {
+				font-size: 2.25rem;
+				font-weight: 600;
+				letter-spacing: -0.02em;
+			}
+
+			p {
+				font-size: 1.1rem;
+				color: #666;
+			}
+
+			@media (prefers-color-scheme: dark) {
+				p { color: #888; }
+			}
+
+			nav {
+				display: flex;
+				gap: 1.5rem;
+				justify-content: center;
+			}
+
+			a {
+				font-size: 0.9rem;
+				font-weight: 500;
+				color: #444;
+				text-underline-offset: 4px;
+				transition: color 0.15s;
+			}
+
+			a:hover { color: #000; }
+		</style>
+	</head>
+	<body>
+		<main>
+			<h1>Joe Ferrucci</h1>
+			<p>Software Developer</p>
+			<nav>
+				<a href="https://www.linkedin.com/in/joeferrucci/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+				<a href="https://github.com/JoeFerrucci" target="_blank" rel="noopener noreferrer">GitHub</a>
+			</nav>
+		</main>
+	</body>
+</html>
