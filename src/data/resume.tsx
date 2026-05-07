@@ -163,7 +163,7 @@ export const DATA = {
       location: "Remote",
       title: "Founding Engineer",
       logoUrl: "/bunches.png",
-      start: "2020",
+      start: "May 2020",
       end: "December 2024",
       description:
         "Built and scaled the mobile apps from zero to hundreds of thousands of users in under 12 months. Grew the engineering team from 1 to 5. Led infrastructure, developer productivity, and cross-functional collaboration across a sports fandom platform.",
