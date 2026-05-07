@@ -26,17 +26,42 @@ function stripMarkdown(text: string): string {
     .replace(/`([^`]+)`/g, "$1");
 }
 
-// ── Colors — mirroring website CSS vars (oklch → hex approx) ──
-const FG       = "#141414"; // oklch(0.145 0 0) foreground
-const MUTED    = "#808080"; // oklch(0.556 0 0) muted-foreground
-const BORDER   = "#e8e8e8"; // oklch(0.922 0 0) border
-const SECONDARY_BG = "#f5f5f5"; // oklch(0.97 0 0) secondary/muted bg
-const SECONDARY_FG = "#2d2d2d"; // oklch(0.205 0 0) secondary-foreground
-const WHITE    = "#ffffff";
+function chunk<T>(arr: readonly T[], size: number): T[][] {
+  return Array.from({ length: Math.ceil(arr.length / size) }, (_, i) =>
+    arr.slice(i * size, i * size + size) as T[]
+  );
+}
+
+const FG           = "#141414";
+const MUTED        = "#808080";
+const BORDER       = "#e8e8e8";
+const SECONDARY_BG = "#f5f5f5";
+const SECONDARY_FG = "#2d2d2d";
+const WHITE        = "#ffffff";
+
+// Accent colors
+const BADGE_BG     = "#eff6ff"; // blue-50
+const BADGE_BORDER = "#bfdbfe"; // blue-200
+const BADGE_FG     = "#1d4ed8"; // blue-700
+const SKILL_BG     = "#eef2ff"; // indigo-50
+const SKILL_BORDER = "#c7d2fe"; // indigo-200
+const SKILL_FG     = "#4338ca"; // indigo-700
 
 const H_PAD = 48;
 const V_PAD = 40;
+const CARD_GAP = 7;
 const FEATURED_PROJECTS = ["BookLeaf", "TrailMix", "Hodu Coffee"];
+
+// Local logo overrides — google favicon URLs fail in react-pdf (redirect/WebP issues)
+const LOCAL_LOGOS: Record<string, string> = {
+  "Glue AI":                       "/logos/glue.png",
+  "Dialpad":                       "/logos/dialpad.png",
+  "Speechify":                     "/logos/speechify.png",
+  "Instacart":                     "/logos/instacart.png",
+  "Jobr (Acquired by Monster.com)": "/logos/monster.png",
+  "NASA JPL":                      "/logos/nasa.png",
+  "Foodster":                      "/logos/foodster.png",
+};
 
 const s = StyleSheet.create({
   page: {
@@ -54,125 +79,121 @@ const s = StyleSheet.create({
     marginHorizontal: -H_PAD,
     marginTop: -V_PAD,
     paddingHorizontal: H_PAD,
-    paddingTop: 32,
-    paddingBottom: 20,
+    paddingTop: 28,
+    paddingBottom: 18,
     borderBottomWidth: 1,
     borderBottomColor: BORDER,
     marginBottom: 10,
   },
   avatar: {
-    width: 60,
-    height: 60,
-    borderRadius: 30,
-    marginRight: 16,
+    width: 56,
+    height: 56,
+    borderRadius: 28,
+    marginRight: 14,
     flexShrink: 0,
   },
-  headerRight: {
-    flex: 1,
-  },
+  headerRight: { flex: 1 },
   headerName: {
-    fontSize: 22,
+    fontSize: 20,
     fontWeight: 700,
     color: FG,
     letterSpacing: 0.1,
     marginBottom: 2,
   },
   headerTitle: {
-    fontSize: 10,
+    fontSize: 9.5,
     fontWeight: 400,
     color: MUTED,
-    marginBottom: 8,
+    marginBottom: 7,
   },
   headerContact: {
     flexDirection: "row",
     flexWrap: "wrap",
     alignItems: "center",
   },
-  headerContactText: {
-    fontSize: 7.5,
-    color: MUTED,
-  },
-  headerContactLink: {
-    fontSize: 7.5,
-    color: MUTED,
-    textDecoration: "none",
-  },
-  headerDot: {
-    fontSize: 7.5,
-    color: BORDER,
-    marginHorizontal: 4,
-  },
+  headerContactText: { fontSize: 7.5, color: MUTED },
+  headerContactLink: { fontSize: 7.5, color: MUTED, textDecoration: "none" },
+  headerDot: { fontSize: 7.5, color: BORDER, marginHorizontal: 4 },
   // ── Section headers ─────────────────────────────────────────
-  sectionHeader: {
-    marginTop: 10,
-    marginBottom: 8,
-  },
-  sectionTitle: {
-    fontSize: 13,
-    fontWeight: 700,
-    color: FG,
-    marginBottom: 5,
-  },
-  sectionRule: {
-    height: 1,
-    backgroundColor: BORDER,
-  },
+  sectionHeader: { marginTop: 10, marginBottom: 7 },
+  sectionTitle: { fontSize: 12, fontWeight: 700, color: FG, marginBottom: 4 },
+  sectionRule: { height: 1, backgroundColor: BORDER },
   // ── About ───────────────────────────────────────────────────
   summaryText: {
-    fontSize: 9,
+    fontSize: 8.5,
     color: MUTED,
     lineHeight: 1.65,
     marginBottom: 4,
   },
-  // ── Work entries ────────────────────────────────────────────
-  workEntry: {
-    marginBottom: 10,
+  // ── Card grid ───────────────────────────────────────────────
+  cardRow: {
+    flexDirection: "row",
+    gap: CARD_GAP,
+    marginBottom: CARD_GAP,
   },
-  workTopRow: {
+  card: {
+    flex: 1,
+    borderWidth: 1,
+    borderColor: BORDER,
+    borderRadius: 6,
+    padding: 9,
+    backgroundColor: WHITE,
+  },
+  // ── Work cards ──────────────────────────────────────────────
+  cardTopRow: {
     flexDirection: "row",
     justifyContent: "space-between",
     alignItems: "flex-start",
-    marginBottom: 1,
+    marginBottom: 3,
   },
-  workLeft: {
+  cardLeft: {
+    flex: 1,
+    paddingRight: 6,
+  },
+  workCompanyRow: {
     flexDirection: "row",
     alignItems: "center",
-    flex: 1,
-    paddingRight: 10,
+    gap: 4,
+    marginBottom: 1,
   },
   workCompany: {
-    fontSize: 10,
-    fontWeight: 600,
+    fontSize: 9.5,
+    fontWeight: 700,
     color: FG,
-    marginRight: 5,
   },
   workBadge: {
-    fontSize: 7,
+    fontSize: 6.5,
     fontWeight: 500,
-    color: SECONDARY_FG,
-    backgroundColor: SECONDARY_BG,
+    color: BADGE_FG,
+    backgroundColor: BADGE_BG,
     borderWidth: 0.5,
-    borderColor: BORDER,
+    borderColor: BADGE_BORDER,
     borderRadius: 3,
-    paddingHorizontal: 5,
-    paddingVertical: 2,
+    paddingHorizontal: 4,
+    paddingVertical: 1.5,
   },
-  workDates: {
+  workLogo: {
+    width: 14,
+    height: 14,
+    borderRadius: 3,
+    marginRight: 0,
+    flexShrink: 0,
+  },
+  workTitle: {
     fontSize: 8,
+    fontWeight: 500,
+    color: MUTED,
+    marginBottom: 1,
+  },
+  cardDates: {
+    fontSize: 7.5,
     color: MUTED,
     flexShrink: 0,
   },
-  workTitleInline: {
-    fontSize: 9,
-    fontWeight: 700,
-    color: FG,
-    marginLeft: 5,
-  },
-  workDesc: {
-    fontSize: 8.5,
+  cardDesc: {
+    fontSize: 8,
     color: MUTED,
-    lineHeight: 1.6,
-    marginTop: 2,
+    lineHeight: 1.55,
   },
   // ── Education ───────────────────────────────────────────────
   eduRow: {
@@ -180,73 +201,42 @@ const s = StyleSheet.create({
     justifyContent: "space-between",
     alignItems: "flex-start",
   },
-  eduSchool: {
-    fontSize: 10,
-    fontWeight: 600,
-    color: FG,
-    marginBottom: 1,
-  },
-  eduDegree: {
-    fontSize: 8.5,
-    color: MUTED,
-  },
+  eduSchool: { fontSize: 10, fontWeight: 600, color: FG, marginBottom: 1 },
+  eduDegree: { fontSize: 8.5, color: MUTED },
   // ── Skills chips ─────────────────────────────────────────────
-  skillsWrap: {
-    flexDirection: "row",
-    flexWrap: "wrap",
-    gap: 4,
-  },
+  skillsWrap: { flexDirection: "row", flexWrap: "wrap", gap: 4 },
   skillChip: {
-    backgroundColor: SECONDARY_BG,
+    backgroundColor: SKILL_BG,
     borderWidth: 0.5,
-    borderColor: BORDER,
+    borderColor: SKILL_BORDER,
     borderRadius: 4,
     paddingHorizontal: 7,
     paddingVertical: 3,
   },
-  skillChipText: {
-    fontSize: 7.5,
-    fontWeight: 500,
-    color: SECONDARY_FG,
-  },
-  // ── Projects ────────────────────────────────────────────────
-  projectEntry: {
-    marginBottom: 8,
-  },
-  projectTopRow: {
+  skillChipText: { fontSize: 7.5, fontWeight: 500, color: SKILL_FG },
+  // ── Project cards ────────────────────────────────────────────
+  projectCardTopRow: {
     flexDirection: "row",
     justifyContent: "space-between",
+    alignItems: "flex-start",
+    marginBottom: 4,
+  },
+  projectCardLeft: {
+    flexDirection: "row",
     alignItems: "center",
-    marginBottom: 2,
+    flex: 1,
+    paddingRight: 6,
   },
   projectIcon: {
-    width: 20,
-    height: 20,
-    borderRadius: 5,
-    marginRight: 7,
+    width: 18,
+    height: 18,
+    borderRadius: 4,
+    marginRight: 6,
     flexShrink: 0,
   },
-  projectTitle: {
-    fontSize: 10,
-    fontWeight: 600,
-    color: FG,
-  },
-  projectDates: {
-    fontSize: 8,
-    color: MUTED,
-    flexShrink: 0,
-  },
-  projectLink: {
-    fontSize: 7.5,
-    color: MUTED,
-    textDecoration: "none",
-    marginLeft: 6,
-  },
-  projectDesc: {
-    fontSize: 8.5,
-    color: MUTED,
-    lineHeight: 1.6,
-  },
+  projectTitleBlock: { flex: 1 },
+  projectTitle: { fontSize: 9.5, fontWeight: 700, color: FG, marginBottom: 1 },
+  projectLink: { fontSize: 7, color: MUTED, textDecoration: "none" },
 });
 
 function Section({ title }: { title: string }) {
@@ -254,6 +244,60 @@ function Section({ title }: { title: string }) {
     <View style={s.sectionHeader}>
       <Text style={s.sectionTitle}>{title}</Text>
       <View style={s.sectionRule} />
+    </View>
+  );
+}
+
+type WorkEntry = typeof DATA.work[number];
+type ProjectEntry = typeof DATA.projects[number];
+
+function WorkCard({ work: w }: { work: WorkEntry }) {
+  const origin = typeof window !== "undefined" ? window.location.origin : "";
+  const rawLogo = LOCAL_LOGOS[w.company] ?? w.logoUrl;
+  const logoSrc = rawLogo.startsWith("/") ? `${origin}${rawLogo}` : rawLogo;
+  return (
+    <View style={s.card} wrap={false}>
+      <View style={s.cardTopRow}>
+        <View style={s.cardLeft}>
+          <View style={s.workCompanyRow}>
+            {w.logoUrl && <Image src={logoSrc} style={s.workLogo} />}
+            <Text style={s.workCompany}>{w.company}</Text>
+            {w.badges.length > 0 && (
+              <Text style={s.workBadge}>{w.badges.join(", ")}</Text>
+            )}
+          </View>
+          <Text style={s.workTitle}>{w.title}</Text>
+        </View>
+        <Text style={s.cardDates}>
+          {w.start} – {w.end ?? DATA.sections.work.presentLabel}
+        </Text>
+      </View>
+      <Text style={s.cardDesc}>{w.description}</Text>
+    </View>
+  );
+}
+
+function ProjectCard({ project: p }: { project: ProjectEntry }) {
+  const origin = typeof window !== "undefined" ? window.location.origin : "";
+  return (
+    <View style={s.card} wrap={false}>
+      <View style={s.projectCardTopRow}>
+        <View style={s.projectCardLeft}>
+          {"icon" in p && p.icon && (
+            <Image src={`${origin}${p.icon}`} style={s.projectIcon} />
+          )}
+          <View style={s.projectTitleBlock}>
+            <Text style={s.projectTitle}>{p.title}</Text>
+            {p.href && (
+              <Link src={p.href} style={s.projectLink}>
+                {p.href.replace("https://", "").replace(/\/$/, "")}
+              </Link>
+            )}
+          </View>
+        </View>
+        <Text style={s.cardDates}>{p.dates}</Text>
+      </View>
+      <Text style={s.cardDesc}>{p.description}</Text>
     </View>
   );
 }
@@ -270,6 +314,9 @@ export function ResumePDF() {
     FEATURED_PROJECTS.includes(p.title)
   );
 
+  const workRows = chunk(DATA.work, 2);
+  const projectRows = chunk(featuredProjects, 2);
+
   return (
     <Document>
       <Page size="LETTER" style={s.page}>
@@ -279,7 +326,7 @@ export function ResumePDF() {
           <Image src={avatarUrl} style={s.avatar} />
           <View style={s.headerRight}>
             <Text style={s.headerName}>{DATA.name}</Text>
-            <Text style={s.headerTitle}>{DATA.description}</Text>
+            <Text style={s.headerTitle}>{DATA.description.replace(/\n/g, " · ")}</Text>
             <View style={s.headerContact}>
               <Text style={s.headerContactText}>{DATA.location}</Text>
               <Text style={s.headerDot}>·</Text>
@@ -310,21 +357,9 @@ export function ResumePDF() {
 
         {/* ── Work Experience ── */}
         <Section title="Work Experience" />
-        {DATA.work.map((w) => (
-          <View key={w.company + w.start} style={s.workEntry} wrap={false}>
-            <View style={s.workTopRow}>
-              <View style={s.workLeft}>
-                <Text style={s.workCompany}>{w.company}</Text>
-                {w.badges.length > 0 && (
-                  <Text style={s.workBadge}>{w.badges.join(", ")}</Text>
-                )}
-                <Text style={s.workTitleInline}>{w.title}</Text>
-              </View>
-              <Text style={s.workDates}>
-                {w.start} – {w.end ?? DATA.sections.work.presentLabel}
-              </Text>
-            </View>
-            <Text style={s.workDesc}>{w.description}</Text>
+        {workRows.map((row, i) => (
+          <View key={i} style={s.cardRow}>
+            {row.map((w) => <WorkCard key={w.company + w.start} work={w} />)}
           </View>
         ))}
 
@@ -337,7 +372,7 @@ export function ResumePDF() {
               <Text style={s.eduDegree}>{e.degree}</Text>
             </View>
             {(e.start || e.end) && (
-              <Text style={s.workDates}>
+              <Text style={s.cardDates}>
                 {e.start}{e.start && e.end ? " – " : ""}{e.end}
               </Text>
             )}
@@ -356,24 +391,9 @@ export function ResumePDF() {
 
         {/* ── Projects ── */}
         <Section title="Projects" />
-        {featuredProjects.map((p) => (
-          <View key={p.title} style={s.projectEntry} wrap={false}>
-            <View style={s.projectTopRow}>
-              <View style={{ flexDirection: "row", alignItems: "center", flex: 1, paddingRight: 10 }}>
-                {"icon" in p && p.icon && (
-                  <Image
-                    src={`${window.location.origin}${p.icon}`}
-                    style={s.projectIcon}
-                  />
-                )}
-                <Text style={s.projectTitle}>{p.title}</Text>
-                {p.href && (
-                  <Link src={p.href} style={s.projectLink}>{p.href.replace("https://", "")}</Link>
-                )}
-              </View>
-              <Text style={s.projectDates}>{p.dates}</Text>
-            </View>
-            <Text style={s.projectDesc}>{p.description}</Text>
+        {projectRows.map((row, i) => (
+          <View key={i} style={s.cardRow}>
+            {row.map((p) => <ProjectCard key={p.title} project={p} />)}
           </View>
         ))}
 

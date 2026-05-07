@@ -25,7 +25,7 @@ export const DATA = {
   description:
     "Principal Mobile + AI Engineer\nI build high-quality apps and AI systems — and lead the teams that ship them.",
   summary:
-    "I've spent 10+ years building and leading high-impact mobile products — from [NASA JPL](https://jpl.nasa.gov/) to [Instacart](https://instacart.com/) to [founding my own startups](/#work). I specialize in Swift, SwiftUI, and iOS/macOS architecture, with a track record of taking apps from zero to hundreds of thousands of users, owning initiatives end-to-end from system design to CI/CD to App Store release, and leading engineering teams that care about polish, performance, and craft. At [Monster](https://monster.com), I scaled an engineering org 500% and directed all client development across iOS, Android, and Web for millions of users globally — spanning monster.com, Monster Mobile (Jobr), TalentBin, and military.com — work that contributed to a $498M acquisition.\n\nI stay close to the edge of AI — building custom agentic workflows that have meaningfully multiplied my output and quality, because knowing how to leverage AI effectively is its own kind of senior skill. I'm drawn to teams that value craftsmanship: thoughtful animations, fluid interactions, and software that feels personal and alive.",
+    "I've spent 10+ years building and leading high-impact mobile products and teams — from [NASA JPL](https://jpl.nasa.gov/) to [Instacart](https://instacart.com/) to [founding my own startups](/#work). I specialize in Swift, SwiftUI, and iOS/macOS architecture, with a track record of taking apps from zero to hundreds of thousands of users, owning initiatives end-to-end from system design to CI/CD to App Store release, and leading engineering teams that care about polish, performance, and craft. At [Monster](https://monster.com), I scaled an engineering org 500% and directed all client development across iOS, Android, and Web for millions of users globally — spanning monster.com, Monster Mobile (Jobr), TalentBin, and military.com — work that contributed to a $498M acquisition.\n\nI stay close to the edge of AI — building custom agentic workflows that have meaningfully multiplied my output and quality, because knowing how to leverage AI effectively is its own kind of senior skill. I'm drawn to teams that value craftsmanship: thoughtful animations, fluid interactions, and software that feels personal and alive.",
   avatarUrl: "/picofme.png",
   ogImage: "/og_image.png",
   sections: {
@@ -227,7 +227,7 @@ export const DATA = {
       badges: ["Founder"],
       location: "San Francisco, CA",
       title: "Technical Founder & CEO",
-      logoUrl: "https://avatar.vercel.sh/foodster?size=40",
+      logoUrl: "/logos/foodster.png",
       start: "2014",
       end: "2015",
       description:
@@ -240,7 +240,7 @@ export const DATA = {
       badges: [],
       location: "Pasadena, CA",
       title: "Lead Software Engineer",
-      logoUrl: "https://www.google.com/s2/favicons?domain=jpl.nasa.gov&sz=128",
+      logoUrl: "/logos/nasa.png",
       start: "2013",
       end: "2014",
       description:
