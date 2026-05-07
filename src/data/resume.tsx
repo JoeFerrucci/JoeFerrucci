@@ -164,7 +164,7 @@ export const DATA = {
       title: "Founding Engineer",
       logoUrl: "/bunches.png",
       start: "2020",
-      end: "January 2025",
+      end: "December 2024",
       description:
         "Built and scaled the mobile apps from zero to hundreds of thousands of users in under 12 months. Grew the engineering team from 1 to 5. Led infrastructure, developer productivity, and cross-functional collaboration across a sports fandom platform.",
       skills: ["Swift", "SwiftUI", "UIKit", "GraphQL", "MVVM", "System Architecture", "Platform Engineering", "CI/CD", "Product Design", "Cross-functional Team Leadership"],
