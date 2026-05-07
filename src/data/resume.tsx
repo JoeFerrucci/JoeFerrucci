@@ -23,7 +23,7 @@ export const DATA = {
   location: "St. Louis, MO",
   locationLink: "https://www.google.com/maps/place/st+louis+mo",
   description:
-    "Principal Mobile + AI Engineer. I build high-quality apps and AI systems — and lead the teams that ship them.",
+    "Principal Mobile + AI Engineer\nI build high-quality apps and AI systems — and lead the teams that ship them.",
   summary:
     "I've spent 10+ years building and leading high-impact mobile products — from [NASA JPL](https://jpl.nasa.gov/) to [Instacart](https://instacart.com/) to [founding my own startups](/#work). I specialize in Swift, SwiftUI, and iOS/macOS architecture, with a track record of taking apps from zero to hundreds of thousands of users, owning initiatives end-to-end from system design to CI/CD to App Store release, and leading engineering teams that care about polish, performance, and craft. At [Monster](https://monster.com), I scaled an engineering org 500% and directed all client development across iOS, Android, and Web for millions of users globally — spanning monster.com, Monster Mobile (Jobr), TalentBin, and military.com — work that contributed to a $498M acquisition.\n\nI stay close to the edge of AI — building custom agentic workflows that have meaningfully multiplied my output and quality, because knowing how to leverage AI effectively is its own kind of senior skill. I'm drawn to teams that value craftsmanship: thoughtful animations, fluid interactions, and software that feels personal and alive.",
   avatarUrl: "/picofme.png",
@@ -262,6 +262,7 @@ export const DATA = {
     {
       title: "BookLeaf",
       href: "https://www.bookleaf.us",
+      icon: "/projects/bookleaf-icon.png",
       dates: "2013 - Present",
       active: true,
       description:
@@ -280,6 +281,7 @@ export const DATA = {
     {
       title: "TrailMix",
       href: "https://www.trailmix.club",
+      icon: "/projects/trailmix-icon.png",
       dates: "2024 - Present",
       active: true,
       description:
@@ -298,6 +300,7 @@ export const DATA = {
     {
       title: "MultiController",
       href: "https://github.com/JoeFerrucci/MultiController",
+      icon: "/projects/multicontroller-icon.jpg",
       dates: "2024 - Present",
       active: false,
       description:
@@ -316,10 +319,11 @@ export const DATA = {
     {
       title: "Hodu Coffee",
       href: "https://www.hoducoffee.com",
+      icon: "/projects/hodu-icon.png",
       dates: "2019 - Present",
       active: true,
       description:
-        "Hodu (הוֹדוּ) is an ancient Hebrew command — not a feeling, but an instruction: give thanks, now, together. A specialty coffee roaster built on that single idea. Single-origin Ethiopia, Colombia, and Guatemala, roasted Tuesday and Friday, shipped before the week ends. Coffee is the occasion. Gratitude is the point.",
+        "Hodu is an ancient Hebrew command — not a feeling, but an instruction: give thanks, now, together. A specialty coffee roaster built on that single idea. Single-origin Ethiopia, Colombia, and Guatemala, roasted Tuesday and Friday, shipped before the week ends. Coffee is the occasion. Gratitude is the point.",
       technologies: [],
       links: [
         {
@@ -328,12 +332,13 @@ export const DATA = {
           icon: <Icons.globe className="size-3" />,
         },
       ],
-      image: "/projects/hodu.png",
+      image: "/projects/hodu.jpg",
       video: "",
     },
     {
       title: "F3 Nation",
       href: "https://www.f3nation.com",
+      icon: "/projects/f3nation-icon.jpg",
       dates: "2020 - Present",
       active: true,
       description:

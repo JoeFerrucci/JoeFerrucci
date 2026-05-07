@@ -40,6 +40,7 @@ export default function ProjectsSection() {
                                 href={project.href}
                                 key={project.title}
                                 title={project.title}
+                                icon={"icon" in project ? project.icon as string : undefined}
                                 description={project.description}
                                 dates={project.dates}
                                 tags={project.technologies}

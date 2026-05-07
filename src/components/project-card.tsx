@@ -26,6 +26,7 @@ function ProjectImage({ src, alt }: { src: string; alt: string }) {
 interface Props {
   title: string;
   href?: string;
+  icon?: string;
   description: string;
   dates: string;
   tags: readonly string[];
@@ -42,6 +43,7 @@ interface Props {
 export function ProjectCard({
   title,
   href,
+  icon,
   description,
   dates,
   tags,
@@ -103,9 +105,28 @@ export function ProjectCard({
       </div>
       <div className="p-6 flex flex-col gap-3 flex-1">
         <div className="flex items-start justify-between gap-2">
-          <div className="flex flex-col gap-1">
-            <h3 className="font-semibold">{title}</h3>
-            <time className="text-xs text-muted-foreground">{dates}</time>
+          <div className="flex items-center gap-2.5">
+            {icon && (
+              <a href={href || "#"} target="_blank" rel="noopener noreferrer" onClick={(e) => e.stopPropagation()}>
+                <img
+                  src={icon}
+                  alt={title}
+                  className="size-9 rounded-xl object-cover flex-none border border-border shadow-sm"
+                />
+              </a>
+            )}
+            <div className="flex flex-col gap-1">
+              <a
+                href={href || "#"}
+                target="_blank"
+                rel="noopener noreferrer"
+                onClick={(e) => e.stopPropagation()}
+                className="font-semibold hover:underline underline-offset-2"
+              >
+                {title}
+              </a>
+              <time className="text-xs text-muted-foreground">{dates}</time>
+            </div>
           </div>
           <a
             href={href || "#"}
