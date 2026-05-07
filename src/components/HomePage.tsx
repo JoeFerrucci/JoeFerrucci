@@ -10,6 +10,7 @@ import PhotosSection from "@/components/section/photos-section";
 import ProjectsSection from "@/components/section/projects-section";
 import WorkSection from "@/components/section/work-section";
 import { ArrowUpRight } from "lucide-react";
+import { ResumeDownloadButton } from "@/components/ResumeDownloadButton";
 
 const BLUR_FADE_DELAY = 0.04;
 
@@ -151,6 +152,9 @@ export default function HomePage() {
                   I build apps, AI systems, and{" "}
                   <span className="italic font-medium text-foreground">the teams that ship them.</span>
                 </p>
+              </BlurFade>
+              <BlurFade delay={BLUR_FADE_DELAY * 2}>
+                <ResumeDownloadButton />
               </BlurFade>
             </div>
             <BlurFade delay={BLUR_FADE_DELAY} className="order-1 md:order-2">
