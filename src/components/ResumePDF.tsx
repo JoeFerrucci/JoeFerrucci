@@ -112,7 +112,7 @@ const s = StyleSheet.create({
     alignItems: "center",
   },
   headerContactText: { fontSize: 7.5, color: MUTED },
-  headerContactLink: { fontSize: 7.5, color: MUTED, textDecoration: "none" },
+  headerContactLink: { fontSize: 7.5, color: MUTED, textDecoration: "underline" },
   headerDot: { fontSize: 7.5, color: BORDER, marginHorizontal: 4 },
   // ── Section headers ─────────────────────────────────────────
   sectionHeader: { marginTop: 10, marginBottom: 7 },
