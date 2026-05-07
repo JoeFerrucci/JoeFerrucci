@@ -46,6 +46,11 @@ export default function WorkSection() {
                 <div className="flex-1 min-w-0 gap-0.5 flex flex-col">
                   <div className="font-semibold leading-none flex items-center gap-2">
                     {work.company}
+                    {"badges" in work && work.badges.map((badge) => (
+                      <Badge key={badge} variant="secondary" className="text-xs font-normal">
+                        {badge}
+                      </Badge>
+                    ))}
                     <span className="relative inline-flex items-center w-3.5 h-3.5">
                       <ChevronRight
                         className={cn(

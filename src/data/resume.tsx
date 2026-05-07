@@ -170,6 +170,32 @@ export const DATA = {
       skills: ["Swift", "SwiftUI", "UIKit", "GraphQL", "MVVM", "System Architecture", "Platform Engineering", "CI/CD", "Product Design", "Cross-functional Team Leadership"],
     },
     {
+      company: "Dialpad",
+      href: "https://dialpad.com",
+      badges: ["Consultant"],
+      location: "Remote",
+      title: "Director of Mobile Engineering",
+      logoUrl: "https://www.google.com/s2/favicons?domain=dialpad.com&sz=128",
+      start: "August 2021",
+      end: "March 2023",
+      description:
+        "Brought in specifically for my mobile expertise to rescue platforms that had accumulated deep architectural debt — apps that were unstable, slow, and difficult to build on. Led two engineering teams across two products, driving a ground-up modernization effort: re-architecting for stability and performance, raising the engineering bar, and meaningfully improving developer productivity and team efficacy.",
+      skills: ["Swift", "SwiftUI", "iOS", "System Architecture", "Platform Engineering", "CI/CD", "Cross-functional Team Leadership", "Management", "Hands-on Technical Leadership"],
+    },
+    {
+      company: "Speechify",
+      href: "https://speechify.com",
+      badges: ["Consultant"],
+      location: "Remote",
+      title: "Director of Mobile Engineering",
+      logoUrl: "https://www.google.com/s2/favicons?domain=speechify.com&sz=128",
+      start: "January 2021",
+      end: "August 2021",
+      description:
+        "Brought in to fix a struggling iOS platform and raise the engineering bar across the mobile team. Drove architectural improvements, improved code quality, and elevated team standards to support Speechify's rapid growth.",
+      skills: ["Swift", "SwiftUI", "UIKit", "iOS", "System Architecture", "Platform Engineering", "CI/CD", "Hands-on Technical Leadership", "Management"],
+    },
+    {
       company: "Instacart",
       href: "https://instacart.com",
       badges: [],
