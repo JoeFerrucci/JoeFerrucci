@@ -25,7 +25,7 @@ I build apps, AI systems, and ***the teams that ship them.***
 
 ## About
 
-I've spent 10+ years building and leading high-impact mobile products — from [NASA JPL](https://jpl.nasa.gov/) to [Instacart](https://instacart.com/) to founding my own startups. I specialize in Swift, SwiftUI, and iOS/macOS architecture, with a track record of taking apps from zero to hundreds of thousands of users, owning initiatives end-to-end from system design to CI/CD to App Store release, and leading engineering teams that care about polish, performance, and craft.
+I've spent 10+ years building and leading high-impact mobile products — from [NASA JPL](https://jpl.nasa.gov/) to [Instacart](https://instacart.com/) to founding my own startups. I specialize in Swift, SwiftUI, and iOS/macOS architecture, with a track record of taking apps from zero to hundreds of thousands of users, owning initiatives end-to-end from system design to CI/CD to App Store release, and leading engineering teams that care about polish, performance, and craft. At [Monster](https://monster.com), I scaled an engineering org 500% and directed all client development across iOS, Android, and Web for millions of users globally — work that contributed to a $498M acquisition.
 
 I stay close to the edge of AI — building custom agentic workflows that have meaningfully multiplied my output and quality, because knowing how to leverage AI effectively is its own kind of senior skill. I'm drawn to teams that value craftsmanship: thoughtful animations, fluid interactions, and software that feels personal and alive.
 
@@ -36,30 +36,38 @@ I stay close to the edge of AI — building custom agentic workflows that have m
 <table>
 <tr>
 <td><img src="https://media.licdn.com/dms/image/v2/D560BAQELeFI9NbbfBw/company-logo_200_200/B56ZmbfOJZHkAI-/0/1759250277395/taiyaki_ai_logo?e=1779926400&v=beta&t=iejgmb9vZljiRwA9gqTDf6bbNTDoUwBj5x9Su_ZWKSA" width="32" /></td>
-<td><strong>Taya Necklace</strong> — Founding Engineer <em>(Jan 2026 – Mar 2026)</em><br/>First and sole engineer. Built a voice-first mobile product from concept to production.</td>
+<td><strong>Taya Necklace</strong> — Founding Engineer <em>(Jan 2026 – Mar 2026)</em> · Contract<br/>First and sole engineer. Built a voice-first mobile product from concept to production.</td>
 </tr>
 <tr>
-<td><img src="https://www.google.com/s2/favicons?domain=glue.ai&sz=64" width="32" /></td>
+<td><img src="https://raw.githubusercontent.com/JoeFerrucci/JoeFerrucci/master/public/logos/glue.png" width="32" /></td>
 <td><strong>Glue AI</strong> — Principal iOS/macOS Engineer <em>(Mar 2025 – Jan 2026)</em><br/>Led iOS and macOS development for a thread-first, AI-first workplace productivity platform backed by David O. Sacks.</td>
 </tr>
 <tr>
 <td><img src="https://raw.githubusercontent.com/JoeFerrucci/JoeFerrucci/master/public/bunches.png" width="32" /></td>
-<td><strong>Bunches</strong> — Founding Engineer <em>(2020 – Jan 2025)</em><br/>Built and scaled mobile apps from zero to hundreds of thousands of users in under 12 months. Grew the engineering team from 1 to 5.</td>
+<td><strong>Bunches</strong> — Founding Engineer <em>(May 2020 – Dec 2024)</em><br/>Built and scaled mobile apps from zero to hundreds of thousands of users in under 12 months. Grew the engineering team from 1 to 5.</td>
 </tr>
 <tr>
-<td><img src="https://www.google.com/s2/favicons?domain=instacart.com&sz=64" width="32" /></td>
+<td><img src="https://raw.githubusercontent.com/JoeFerrucci/JoeFerrucci/master/public/logos/dialpad.png" width="32" /></td>
+<td><strong>Dialpad</strong> — Director of Mobile Engineering <em>(Aug 2021 – Mar 2023)</em> · Consultant<br/>Rescued two mobile platforms with deep architectural debt. Led two engineering teams across two products, driving ground-up modernization.</td>
+</tr>
+<tr>
+<td><img src="https://raw.githubusercontent.com/JoeFerrucci/JoeFerrucci/master/public/logos/speechify.png" width="32" /></td>
+<td><strong>Speechify</strong> — Director of Mobile Engineering <em>(Jan 2021 – Aug 2021)</em> · Consultant<br/>Brought in to fix a struggling iOS platform and raise the engineering bar across the mobile team.</td>
+</tr>
+<tr>
+<td><img src="https://raw.githubusercontent.com/JoeFerrucci/JoeFerrucci/master/public/logos/instacart.png" width="32" /></td>
 <td><strong>Instacart</strong> — Staff iOS Engineer <em>(2019 – 2021)</em><br/>Led projects on In-Store Fulfillment and Earnings/Marketplace teams. Championed platform-wide initiatives org-wide.</td>
 </tr>
 <tr>
-<td><img src="https://www.google.com/s2/favicons?domain=monster.com&sz=64" width="32" /></td>
-<td><strong>Jobr (Acquired by Monster.com)</strong> — Head of Engineering <em>(2015 – 2019)</em><br/>Sole iOS engineer for Jobr — achieved #1 in App Store Business. Post-acquisition, directed all client app development.</td>
+<td><img src="https://raw.githubusercontent.com/JoeFerrucci/JoeFerrucci/master/public/logos/monster.png" width="32" /></td>
+<td><strong>Jobr (Acquired by Monster.com)</strong> — Head of Engineering <em>(2015 – 2019)</em><br/>Sole iOS engineer for Jobr — #1 in App Store Business. Post-acquisition, directed all client app development across iOS, Android, and Web for millions of users globally. Contributed to a $498M acquisition.</td>
 </tr>
 <tr>
-<td><img src="https://avatar.vercel.sh/foodster?size=40" width="32" /></td>
+<td><img src="https://raw.githubusercontent.com/JoeFerrucci/JoeFerrucci/master/public/logos/foodster.png" width="32" /></td>
 <td><strong>Foodster</strong> — Technical Founder & CEO <em>(2014 – 2015)</em><br/>Built a food delivery app from the ground up — iOS client, web client, and backend infrastructure.</td>
 </tr>
 <tr>
-<td><img src="https://www.google.com/s2/favicons?domain=jpl.nasa.gov&sz=64" width="32" /></td>
+<td><img src="https://raw.githubusercontent.com/JoeFerrucci/JoeFerrucci/master/public/logos/nasa.png" width="32" /></td>
 <td><strong>NASA JPL</strong> — Lead Software Engineer <em>(2013 – 2014)</em><br/>Worked on the Earth Observing System (EOS) team — large-scale data processing and analysis.</td>
 </tr>
 </table>
@@ -135,9 +143,9 @@ One wrist. Every room. Instantly discovers every Roku TV and Sonos speaker on yo
 
 **[Hodu Coffee](https://www.hoducoffee.com)** &nbsp; *(2019 – Present)*
 
-<img src="https://raw.githubusercontent.com/JoeFerrucci/JoeFerrucci/master/public/projects/hodu.png" width="100%" />
+<img src="https://raw.githubusercontent.com/JoeFerrucci/JoeFerrucci/master/public/projects/hodu.jpg" width="100%" />
 
-Hodu (הוֹדוּ) is Hebrew for "give thanks" — a specialty coffee roaster built on one idea: the cup in your hands is a gift worth naming.
+A specialty coffee roaster built on a single ancient idea: give thanks, now, together. Single-origin Ethiopia, Colombia, and Guatemala, roasted fresh and shipped weekly.
 
 </td>
 </tr>
