@@ -192,8 +192,8 @@ export const DATA = {
       start: "2015",
       end: "2019",
       description:
-        "Sole iOS engineer for Jobr and Jobr for Business, built from scratch in Swift — achieving #1 in the App Store Business section. Post-acquisition by Monster.com, directed all client app development (iOS, Android, Web) and established engineering standards org-wide.",
-      skills: ["Swift", "Objective-C", "UIKit", "SwiftUI", "MVVM", "System Architecture", "Management", "CI/CD", "Hands-on Technical Leadership"],
+        "Started as sole iOS engineer for Jobr and Jobr for Business — built from scratch in Swift, ranked #1 in the App Store Business section, and helped drive a $498M acquisition by Randstad. Post-acquisition, led all client app development (iOS, Android, Web) globally across monster.com, TalentBin, and military.com, serving millions of users. Scaled the SF engineering team 500%, building a cross-functional org spanning engineering, design, PM, QA, and infrastructure. Launched features across 30+ locales and drove Monster's overall technological vision.",
+      skills: ["Swift", "Objective-C", "UIKit", "SwiftUI", "MVVM", "System Architecture", "Management", "CI/CD", "Hands-on Technical Leadership", "Cross-functional Team Leadership"],
     },
     {
       company: "Foodster",
