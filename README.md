@@ -18,7 +18,7 @@ I build apps, AI systems, and ***the teams that ship them.***
 [![Portfolio](https://img.shields.io/badge/joef.us-000000?style=for-the-badge&logo=safari&logoColor=white)](https://joef.us)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/joeferrucci/)
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/JoeFerrucci)
-[![Deployed on Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://joef.us)
+[![Vercel](https://img.shields.io/github/deployments/JoeFerrucci/JoeFerrucci/Production?label=Vercel&logo=vercel&logoColor=white&style=for-the-badge)](https://joef.us)
 
 </div>
 
