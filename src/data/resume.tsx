@@ -141,6 +141,7 @@ export const DATA = {
       end: "March 2026",
       description:
         "First and sole engineer. Built a voice-first mobile product from concept to production, transforming spoken input into structured, searchable knowledge and actionable insights.",
+      moreDetails: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
       skills: ["Swift", "SwiftUI", "iOS", "AI", "RAG", "Speech Synthesis", "Knowledge Graph Embeddings"],
     },
     {
@@ -154,6 +155,7 @@ export const DATA = {
       end: "January 2026",
       description:
         "Co-founded and backed by David O. Sacks (Craft Ventures; All-In Podcast). Led iOS and macOS development for a thread-first, AI-first workplace productivity platform with 100s of MCP & tool integrations.",
+      moreDetails: "",
       skills: ["Swift", "SwiftUI", "UIKit", "MVVM", "System Architecture", "Platform Engineering", "CI/CD", "Xcode", "Hands-on Technical Leadership"],
     },
     {
@@ -167,6 +169,7 @@ export const DATA = {
       end: "December 2024",
       description:
         "Built and scaled the mobile apps from zero to hundreds of thousands of users in under 12 months. Grew the engineering team from 1 to 5. Led infrastructure, developer productivity, and cross-functional collaboration across a sports fandom platform.",
+      moreDetails: "",
       skills: ["Swift", "SwiftUI", "UIKit", "GraphQL", "MVVM", "System Architecture", "Platform Engineering", "CI/CD", "Product Design", "Cross-functional Team Leadership"],
     },
     {
@@ -180,6 +183,7 @@ export const DATA = {
       end: "March 2023",
       description:
         "Brought in specifically for my mobile expertise to rescue platforms that had accumulated deep architectural debt — apps that were unstable, slow, and difficult to build on. Led two engineering teams across two products, driving a ground-up modernization effort: re-architecting for stability and performance, raising the engineering bar, and meaningfully improving developer productivity and team efficacy.",
+      moreDetails: "",
       skills: ["Swift", "SwiftUI", "iOS", "System Architecture", "Platform Engineering", "CI/CD", "Cross-functional Team Leadership", "Management", "Hands-on Technical Leadership"],
     },
     {
@@ -193,6 +197,7 @@ export const DATA = {
       end: "August 2021",
       description:
         "Brought in to fix a struggling iOS platform and raise the engineering bar across the mobile team. Drove architectural improvements, improved code quality, and elevated team standards to support Speechify's rapid growth.",
+      moreDetails: "",
       skills: ["Swift", "SwiftUI", "UIKit", "iOS", "System Architecture", "Platform Engineering", "CI/CD", "Hands-on Technical Leadership", "Management"],
     },
     {
@@ -206,6 +211,7 @@ export const DATA = {
       end: "2021",
       description:
         "Led projects on the In-Store Fulfillment and Earnings/Marketplace teams. Championed platform-wide initiatives improving app performance, code quality, and developer experience across Logistics, Growth, and Staffing.",
+      moreDetails: "",
       skills: ["Swift", "SwiftUI", "UIKit", "Objective-C", "MVVM", "Reactive Programming", "System Architecture", "Platform Engineering", "CI/CD", "Cross-functional Team Leadership"],
     },
     {
@@ -219,6 +225,7 @@ export const DATA = {
       end: "2019",
       description:
         "Started as sole iOS engineer for Jobr and Jobr for Business — built from scratch in Swift, ranked #1 in the App Store Business section, and helped drive a $498M acquisition by Randstad. Post-acquisition, led all client app development (iOS, Android, Web) globally across monster.com, TalentBin, and military.com, serving millions of users. Scaled the SF engineering team 500%, building a cross-functional org spanning engineering, design, PM, QA, and infrastructure. Launched features across 30+ locales and drove Monster's overall technological vision.",
+      moreDetails: "",
       skills: ["Swift", "Objective-C", "UIKit", "SwiftUI", "MVVM", "System Architecture", "Management", "CI/CD", "Hands-on Technical Leadership", "Cross-functional Team Leadership"],
     },
     {
@@ -232,6 +239,7 @@ export const DATA = {
       end: "2015",
       description:
         "Built a food delivery app from the ground up — iOS client, web client, and backend infrastructure — focused on clean architecture, scalability, and fast iteration.",
+      moreDetails: "",
       skills: ["Swift", "Objective-C", "UIKit", "MVVM", "System Architecture", "Management", "CI/CD", "Product Development"],
     },
     {
@@ -245,6 +253,7 @@ export const DATA = {
       end: "2014",
       description:
         "Worked on the Earth Observing System (EOS) team — large-scale data processing and analysis. Collaborated with scientists and engineers on full-stack solutions for complex data collection and management challenges.",
+      moreDetails: "",
       skills: ["Swift", "System Architecture", "CI/CD", "Cross-functional Coordination", "Product Development"],
     },
   ],
