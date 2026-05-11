@@ -141,7 +141,7 @@ export const DATA = {
       end: "March 2026",
       description:
         "First and sole engineer. Built a voice-first mobile product from concept to production, transforming spoken input into structured, searchable knowledge and actionable insights.",
-      moreDetails: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      moreDetails: "",
       skills: ["Swift", "SwiftUI", "iOS", "AI", "RAG", "Speech Synthesis", "Knowledge Graph Embeddings"],
     },
     {
