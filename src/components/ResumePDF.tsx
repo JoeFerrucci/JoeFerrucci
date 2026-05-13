@@ -330,10 +330,6 @@ export function ResumePDF() {
             <View style={s.headerContact}>
               <Text style={s.headerContactText}>{DATA.location}</Text>
               <Text style={s.headerDot}>·</Text>
-              <Link src={`mailto:${DATA.contact.email}`} style={s.headerContactLink}>
-                {DATA.contact.email}
-              </Link>
-              <Text style={s.headerDot}>·</Text>
               <Link src={DATA.contact.social.LinkedIn.url} style={s.headerContactLink}>
                 linkedin.com/in/joeferrucci
               </Link>

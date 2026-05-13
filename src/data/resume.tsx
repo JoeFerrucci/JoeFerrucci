@@ -53,7 +53,7 @@ export const DATA = {
       order: 8, enabled: true,
       label: "Contact",
       heading: "Get in Touch",
-      text: "Want to chat? Reach out on LinkedIn or shoot me an email.",
+      text: "Want to chat? Reach out on LinkedIn.",
     },
   },
   photos: [],
@@ -93,7 +93,7 @@ export const DATA = {
     { href: "/", icon: House, label: "Home" },
   ],
   contact: {
-    email: "joeferrucci33@gmail.com",
+    email: "",
     tel: "",
     social: {
       GitHub: {
@@ -122,7 +122,7 @@ export const DATA = {
       },
       email: {
         name: "Send Email",
-        url: "mailto:joeferrucci33@gmail.com",
+        url: "",
         icon: Icons.email,
         navbar: false,
       },
