@@ -174,6 +174,6 @@ Free, peer-led men's fitness and leadership community. I lead an F3 region of 30
 
 <div align="center">
 
-📫 [joeferrucci33@gmail.com](mailto:joeferrucci33@gmail.com) &nbsp;·&nbsp; 🌐 [joef.us](https://joef.us) &nbsp;·&nbsp; 💼 [LinkedIn](https://www.linkedin.com/in/joeferrucci/)
+🌐 [joef.us](https://joef.us) &nbsp;·&nbsp; 💼 [LinkedIn](https://www.linkedin.com/in/joeferrucci/)
 
 </div>
