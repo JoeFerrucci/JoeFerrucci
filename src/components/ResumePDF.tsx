@@ -54,13 +54,14 @@ const FEATURED_PROJECTS = ["BookLeaf", "TrailMix", "Hodu Coffee"];
 
 // Local logo overrides — google favicon URLs fail in react-pdf (redirect/WebP issues)
 const LOCAL_LOGOS: Record<string, string> = {
-  "Glue AI":                       "/logos/glue.png",
-  "Dialpad":                       "/logos/dialpad.png",
-  "Speechify":                     "/logos/speechify.png",
-  "Instacart":                     "/logos/instacart.png",
+  "New Mountain Capital":           "/logos/newmountaincapital.png",
+  "Glue AI":                        "/logos/glue.png",
+  "Dialpad":                        "/logos/dialpad.png",
+  "Speechify":                      "/logos/speechify.png",
+  "Instacart":                      "/logos/instacart.png",
   "Jobr (Acquired by Monster.com)": "/logos/monster.png",
-  "NASA JPL":                      "/logos/nasa.png",
-  "Foodster":                      "/logos/foodster.png",
+  "NASA JPL":                       "/logos/nasa.png",
+  "Foodster":                       "/logos/foodster.png",
 };
 
 const s = StyleSheet.create({
