@@ -26,7 +26,7 @@ I build apps, AI systems, and ***the teams that ship them.***
 
 ## About
 
-I've spent 10+ years building and leading high-impact mobile products — from [NASA JPL](https://jpl.nasa.gov/) to [Instacart](https://instacart.com/) to founding my own startups. I specialize in Swift, SwiftUI, and iOS/macOS architecture, with a track record of taking apps from zero to hundreds of thousands of users, owning initiatives end-to-end from system design to CI/CD to App Store release, and leading engineering teams that care about polish, performance, and craft. At [Monster](https://monster.com), I scaled an engineering org 500% and directed all client development across iOS, Android, and Web for millions of users globally — work that contributed to a $498M acquisition.
+I've spent 10+ years building and leading high-impact mobile products and teams — from [NASA JPL](https://jpl.nasa.gov/) to [Instacart](https://instacart.com/) to founding my own startups. I specialize in Swift, SwiftUI, and iOS/macOS architecture, with a track record of taking apps from zero to hundreds of thousands of users, owning initiatives end-to-end from system design to CI/CD to App Store release, and leading engineering teams that care about polish, performance, and craft. At [Monster](https://monster.com), I scaled an engineering org 500% and directed all client development across iOS, Android, and Web for millions of users globally — spanning monster.com, Monster Mobile (Jobr), TalentBin, and military.com — work that contributed to a $498M acquisition.
 
 I stay close to the edge of AI — building custom agentic workflows that have meaningfully multiplied my output and quality, because knowing how to leverage AI effectively is its own kind of senior skill. I'm drawn to teams that value craftsmanship: thoughtful animations, fluid interactions, and software that feels personal and alive.
 
@@ -36,16 +36,20 @@ I stay close to the edge of AI — building custom agentic workflows that have m
 
 <table>
 <tr>
+<td><img src="https://raw.githubusercontent.com/JoeFerrucci/JoeFerrucci/master/public/logos/newmountaincapital.png" width="32" /></td>
+<td><strong>New Mountain Capital</strong> — Founding Architect, AI Content Infrastructure <em>(May 2026 – Present)</em> · Contract<br/>Leading engineering on RightsSync with New Mountain Capital and BMI: a permissioned publisher knowledge base for LLM grounding and retrieval. Architecting the platform end-to-end — retrieval, governance/provenance controls, and the infrastructure for scalable publisher and AI partnerships.</td>
+</tr>
+<tr>
 <td><img src="https://media.licdn.com/dms/image/v2/D560BAQELeFI9NbbfBw/company-logo_200_200/B56ZmbfOJZHkAI-/0/1759250277395/taiyaki_ai_logo?e=1779926400&v=beta&t=iejgmb9vZljiRwA9gqTDf6bbNTDoUwBj5x9Su_ZWKSA" width="32" /></td>
-<td><strong>Taya Necklace</strong> — Founding Engineer <em>(Jan 2026 – Mar 2026)</em> · Contract<br/>First and sole engineer. Built a voice-first mobile product from concept to production.</td>
+<td><strong>Taya Necklace</strong> — Founding Engineer <em>(Jan 2026 – Mar 2026)</em> · Contract<br/>First and sole engineer. Built a voice-first mobile product from concept to production, transforming spoken input into structured, searchable knowledge.</td>
 </tr>
 <tr>
 <td><img src="https://raw.githubusercontent.com/JoeFerrucci/JoeFerrucci/master/public/logos/glue.png" width="32" /></td>
-<td><strong>Glue AI</strong> — Principal iOS/macOS Engineer <em>(Mar 2025 – Jan 2026)</em><br/>Led iOS and macOS development for a thread-first, AI-first workplace productivity platform backed by David O. Sacks.</td>
+<td><strong>Glue AI</strong> — Principal iOS/macOS Engineer <em>(Mar 2025 – Jan 2026)</em><br/>Co-founded and backed by David O. Sacks (Craft Ventures; All-In Podcast). Led iOS and macOS development for a thread-first, AI-first workplace productivity platform with 100s of MCP & tool integrations.</td>
 </tr>
 <tr>
 <td></td>
-<td><strong>Stealth Mode AI Startup</strong> — Advisor <em>(Jan 2025 – Jun 2025)</em><br/>Advised a generative AI sports fan platform through early formation and fundraising. AI × Consumer × Sports.</td>
+<td><strong>Stealth Mode AI Startup</strong> — Advisor <em>(Jan 2025 – Jun 2025)</em><br/>Generative AI sports fan platform. Fundraising. AI × Consumer × Sports.</td>
 </tr>
 <tr>
 <td><img src="https://raw.githubusercontent.com/JoeFerrucci/JoeFerrucci/master/public/bunches.png" width="32" /></td>
@@ -87,8 +91,8 @@ I stay close to the edge of AI — building custom agentic workflows that have m
 ![UIKit](https://img.shields.io/badge/UIKit-555?style=flat-square)
 ![Objective-C](https://img.shields.io/badge/Objective--C-555?style=flat-square)
 ![Xcode](https://img.shields.io/badge/Xcode-147EFB?style=flat-square&logo=xcode&logoColor=white)
-![watchOS](https://img.shields.io/badge/watchOS-000000?style=flat-square&logo=apple&logoColor=white)
 ![MVVM](https://img.shields.io/badge/MVVM-555?style=flat-square)
+![System Architecture](https://img.shields.io/badge/System%20Architecture-555?style=flat-square)
 ![Reactive Programming](https://img.shields.io/badge/Reactive%20Programming-555?style=flat-square)
 ![CI/CD](https://img.shields.io/badge/CI%2FCD-2088FF?style=flat-square&logo=githubactions&logoColor=white)
 ![GraphQL](https://img.shields.io/badge/GraphQL-E10098?style=flat-square&logo=graphql&logoColor=white)
@@ -102,6 +106,13 @@ I stay close to the edge of AI — building custom agentic workflows that have m
 ![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white)
 ![AI](https://img.shields.io/badge/AI-555?style=flat-square)
 ![RAG](https://img.shields.io/badge/RAG-555?style=flat-square)
+![Knowledge Graph Embeddings](https://img.shields.io/badge/Knowledge%20Graph%20Embeddings-555?style=flat-square)
+![Speech Synthesis](https://img.shields.io/badge/Speech%20Synthesis-555?style=flat-square)
+![Hands-on Technical Leadership](https://img.shields.io/badge/Hands--on%20Technical%20Leadership-555?style=flat-square)
+![Cross-functional Team Leadership](https://img.shields.io/badge/Cross--functional%20Team%20Leadership-555?style=flat-square)
+![Management](https://img.shields.io/badge/Management-555?style=flat-square)
+![Product Design](https://img.shields.io/badge/Product%20Design-F24E1E?style=flat-square&logo=figma&logoColor=white)
+![Product Development](https://img.shields.io/badge/Product%20Development-555?style=flat-square)
 
 ---
 
