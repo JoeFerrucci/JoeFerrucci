@@ -131,6 +131,20 @@ export const DATA = {
 
   work: [
     {
+      company: "New Mountain Capital",
+      href: "https://www.newmountaincapital.com",
+      badges: ["Contract"],
+      location: "Remote",
+      title: "Founding Architect — AI Content Infrastructure",
+      logoUrl: "https://www.google.com/s2/favicons?domain=newmountaincapital.com&sz=128",
+      start: "May 2026",
+      end: "Present",
+      description:
+        "Leading engineering on RightsSync with New Mountain Capital and BMI: a permissioned publisher knowledge base for LLM grounding and retrieval. Architecting the platform end-to-end — retrieval, governance/provenance controls, and the infrastructure for scalable publisher and AI partnerships.",
+      moreDetails: "",
+      skills: ["Go", "AWS", "Snowflake", "AI", "RAG", "System Architecture", "Content Partnerships", "Knowledge Engineering"],
+    },
+    {
       company: "Taya Necklace",
       href: "https://taya.so",
       badges: ["Contract"],
