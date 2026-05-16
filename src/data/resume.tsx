@@ -173,6 +173,20 @@ export const DATA = {
       skills: ["Swift", "SwiftUI", "UIKit", "MVVM", "System Architecture", "Platform Engineering", "CI/CD", "Xcode", "Hands-on Technical Leadership"],
     },
     {
+      company: "Stealth Mode AI Startup",
+      href: "",
+      badges: [],
+      location: "Remote",
+      title: "Advisor",
+      logoUrl: "/logos/stealth.svg",
+      start: "January 2025",
+      end: "June 2025",
+      description:
+        "Building generative AI sports fan platform. Fundraising. If you're an investor, operator, or builder in AI x Consumer x Sports, let’s connect.",
+      moreDetails: "",
+      skills: ["AI", "Sports", "Consumer", "Product Strategy", "Fundraising"],
+    },
+    {
       company: "Bunches",
       href: "https://bunches.com",
       badges: [],

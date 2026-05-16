@@ -44,6 +44,10 @@ I stay close to the edge of AI — building custom agentic workflows that have m
 <td><strong>Glue AI</strong> — Principal iOS/macOS Engineer <em>(Mar 2025 – Jan 2026)</em><br/>Led iOS and macOS development for a thread-first, AI-first workplace productivity platform backed by David O. Sacks.</td>
 </tr>
 <tr>
+<td></td>
+<td><strong>Stealth Mode AI Startup</strong> — Advisor <em>(Jan 2025 – Jun 2025)</em><br/>Advised a generative AI sports fan platform through early formation and fundraising. AI × Consumer × Sports.</td>
+</tr>
+<tr>
 <td><img src="https://raw.githubusercontent.com/JoeFerrucci/JoeFerrucci/master/public/bunches.png" width="32" /></td>
 <td><strong>Bunches</strong> — Founding Engineer <em>(May 2020 – Dec 2024)</em><br/>Built and scaled mobile apps from zero to hundreds of thousands of users in under 12 months. Grew the engineering team from 1 to 5.</td>
 </tr>
