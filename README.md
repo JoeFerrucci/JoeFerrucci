@@ -49,11 +49,11 @@ I stay close to the edge of AI — building custom agentic workflows that have m
 </tr>
 <tr>
 <td><img src="https://raw.githubusercontent.com/JoeFerrucci/JoeFerrucci/master/public/logos/dialpad.png" width="32" /></td>
-<td><strong>Dialpad</strong> — Director of Mobile Engineering <em>(Aug 2021 – Mar 2023)</em> · Consultant<br/>Rescued two mobile platforms with deep architectural debt. Led two engineering teams across two products, driving ground-up modernization.</td>
+<td><strong>Dialpad</strong> — Director of Mobile Engineering <em>(Aug 2021 – Mar 2023)</em> · Contract<br/>Rescued two mobile platforms with deep architectural debt. Led two engineering teams across two products, driving ground-up modernization.</td>
 </tr>
 <tr>
 <td><img src="https://raw.githubusercontent.com/JoeFerrucci/JoeFerrucci/master/public/logos/speechify.png" width="32" /></td>
-<td><strong>Speechify</strong> — Director of Mobile Engineering <em>(Jan 2021 – Aug 2021)</em> · Consultant<br/>Brought in to fix a struggling iOS platform and raise the engineering bar across the mobile team.</td>
+<td><strong>Speechify</strong> — Director of Mobile Engineering <em>(Jan 2021 – Aug 2021)</em> · Contract<br/>Brought in to fix a struggling iOS platform and raise the engineering bar across the mobile team.</td>
 </tr>
 <tr>
 <td><img src="https://raw.githubusercontent.com/JoeFerrucci/JoeFerrucci/master/public/logos/instacart.png" width="32" /></td>

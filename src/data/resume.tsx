@@ -189,7 +189,7 @@ export const DATA = {
     {
       company: "Dialpad",
       href: "https://dialpad.com",
-      badges: ["Consultant"],
+      badges: ["Contract"],
       location: "Remote",
       title: "Director of Mobile Engineering",
       logoUrl: "https://www.google.com/s2/favicons?domain=dialpad.com&sz=128",
@@ -203,7 +203,7 @@ export const DATA = {
     {
       company: "Speechify",
       href: "https://speechify.com",
-      badges: ["Consultant"],
+      badges: ["Contract"],
       location: "Remote",
       title: "Director of Mobile Engineering",
       logoUrl: "https://www.google.com/s2/favicons?domain=speechify.com&sz=128",
