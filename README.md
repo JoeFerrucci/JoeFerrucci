@@ -48,7 +48,7 @@ I stay close to the edge of AI — building custom agentic workflows that have m
 <td><strong>Glue AI</strong> — Principal iOS/macOS Engineer <em>(Mar 2025 – Jan 2026)</em><br/>Co-founded and backed by David O. Sacks (Craft Ventures; All-In Podcast). Led iOS and macOS development for a thread-first, AI-first workplace productivity platform with 100s of MCP & tool integrations.</td>
 </tr>
 <tr>
-<td></td>
+<td><img src="https://raw.githubusercontent.com/JoeFerrucci/JoeFerrucci/master/public/logos/stealth.svg" width="32" /></td>
 <td><strong>Stealth Mode AI Startup</strong> — Advisor <em>(Jan 2025 – Jun 2025)</em><br/>Generative AI sports fan platform. Fundraising. AI × Consumer × Sports.</td>
 </tr>
 <tr>
