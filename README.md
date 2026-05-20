@@ -161,7 +161,7 @@ One wrist. Every room. Instantly discovers every Roku TV and Sonos speaker on yo
 
 <img src="https://raw.githubusercontent.com/JoeFerrucci/JoeFerrucci/master/public/projects/hodu.jpg" width="100%" />
 
-A specialty coffee roaster built on a single ancient idea: give thanks, now, together. Single-origin Ethiopia, Colombia, and Guatemala, roasted fresh and shipped weekly.
+Small Missouri roaster named after the Hebrew word for "give thanks." Single-origin Ethiopia, Colombia, and Guatemala — roasted Tuesday and Friday, shipped within the week. Born out of a closed door and a friend's gift, coffee as a quiet invitation to slow down.
 
 </td>
 </tr>

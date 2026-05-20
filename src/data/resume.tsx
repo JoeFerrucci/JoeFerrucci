@@ -360,7 +360,7 @@ export const DATA = {
       dates: "2019 - Present",
       active: true,
       description:
-        "Hodu is an ancient Hebrew command — not a feeling, but an instruction: give thanks, now, together. A specialty coffee roaster built on that single idea. Single-origin Ethiopia, Colombia, and Guatemala, roasted Tuesday and Friday, shipped before the week ends. Coffee is the occasion. Gratitude is the point.",
+        "Hodu Coffee is a small Missouri roaster named after the Hebrew word for \"give thanks.\" Single-origin beans from Ethiopia, Colombia, and Guatemala — roasted Tuesday and Friday, shipped within the week. Born out of a closed door and a friend's gift, it's coffee as a quiet invitation to slow down.",
       technologies: [],
       links: [
         {
