@@ -172,7 +172,7 @@ Small Missouri roaster named after the Hebrew word for "give thanks." Single-ori
 
 <img src="https://raw.githubusercontent.com/JoeFerrucci/JoeFerrucci/master/public/projects/f3nation.png" width="100%" />
 
-Free, peer-led men's fitness and leadership community. I lead an F3 region of 300+ men in the St. Louis area.
+Free, peer-led men's fitness and leadership community. I lead an F3 region of 300+ men.
 
 </td>
 <td></td>

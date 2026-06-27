@@ -20,8 +20,8 @@ export const DATA = {
   name: "Joe Ferrucci",
   initials: "JF",
   url: "https://joef.us",
-  location: "St. Louis, MO",
-  locationLink: "https://www.google.com/maps/place/st+louis+mo",
+  location: "Denver, Colorado",
+  locationLink: "https://www.google.com/maps/place/denver+colorado",
   description:
     "Principal Mobile + AI Engineer\nI build high-quality apps and AI systems — and lead the teams that ship them.",
   summary:
@@ -379,7 +379,7 @@ export const DATA = {
       dates: "2020 - Present",
       active: true,
       description:
-        "F3 is a free, peer-led men's fitness and leadership community operating in outdoor bootcamp workouts nationwide. I lead an F3 region of 300+ men in the St. Louis area — planting, growing, and serving a workout community focused on fitness, fellowship, and community leadership.",
+        "F3 is a free, peer-led men's fitness and leadership community operating in outdoor bootcamp workouts nationwide. I lead an F3 region of 300+ men — planting, growing, and serving a workout community focused on fitness, fellowship, and community leadership.",
       technologies: [],
       links: [
         {
