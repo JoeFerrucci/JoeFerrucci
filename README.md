@@ -40,7 +40,7 @@ I stay close to the edge of AI — building custom agentic workflows that have m
 <td><strong>New Mountain Capital</strong> — Founding Architect, AI Content Infrastructure <em>(May 2026 – Present)</em> · Contract<br/>Leading engineering on RightsSync with New Mountain Capital and BMI: a permissioned publisher knowledge base for LLM grounding and retrieval. Architecting the platform end-to-end — retrieval, governance/provenance controls, and the infrastructure for scalable publisher and AI partnerships.</td>
 </tr>
 <tr>
-<td><img src="https://media.licdn.com/dms/image/v2/D560BAQELeFI9NbbfBw/company-logo_200_200/B56ZmbfOJZHkAI-/0/1759250277395/taiyaki_ai_logo?e=1779926400&v=beta&t=iejgmb9vZljiRwA9gqTDf6bbNTDoUwBj5x9Su_ZWKSA" width="32" /></td>
+<td><img src="https://raw.githubusercontent.com/JoeFerrucci/JoeFerrucci/master/public/logos/taya.png" width="32" /></td>
 <td><strong>Taya Necklace</strong> — Founding Engineer <em>(Jan 2026 – Mar 2026)</em> · Contract<br/>First and sole engineer. Built a voice-first mobile product from concept to production, transforming spoken input into structured, searchable knowledge.</td>
 </tr>
 <tr>

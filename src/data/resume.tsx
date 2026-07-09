@@ -146,11 +146,11 @@ export const DATA = {
     },
     {
       company: "Taya Necklace",
-      href: "https://taya.so",
+      href: "https://tayanecklace.com",
       badges: ["Contract"],
       location: "Remote",
       title: "Founding Engineer",
-      logoUrl: "https://media.licdn.com/dms/image/v2/D560BAQELeFI9NbbfBw/company-logo_200_200/B56ZmbfOJZHkAI-/0/1759250277395/taiyaki_ai_logo?e=1779926400&v=beta&t=iejgmb9vZljiRwA9gqTDf6bbNTDoUwBj5x9Su_ZWKSA",
+      logoUrl: "/logos/taya.png",
       start: "January 2026",
       end: "March 2026",
       description:
