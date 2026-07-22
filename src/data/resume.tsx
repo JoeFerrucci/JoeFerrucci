@@ -156,7 +156,7 @@ export const DATA = {
       description:
         "Founded and built BookLeaf, an AI-powered scheduling platform that simplifies appointment booking and group scheduling for individuals and teams. Lead every aspect of the business — from product strategy and UX to architecture and implementation: native client experience, backend services, APIs, calendar integrations, authentication, payments, and cloud infrastructure. Built customizable booking links, intelligent group scheduling polls, recurring availability, multi-calendar sync, automated reminders, and AI-assisted scheduling workflows.",
       moreDetails: "",
-      skills: ["TypeScript", "React", "Node.js", "PostgreSQL", "System Architecture", "AI", "Product Design", "Product Development"],
+      skills: ["TypeScript", "React", "Node.js", "PostgreSQL", "System Architecture", "AI", "Product Design", "Product Development", "Start-up Leadership", "Start-up Ventures", "Knowledge Engineering"],
     },
     {
       company: "Taya Necklace",
