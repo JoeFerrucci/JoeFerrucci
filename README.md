@@ -41,7 +41,7 @@ I stay close to the edge of AI — building custom agentic workflows that have m
 </tr>
 <tr>
 <td><img src="https://raw.githubusercontent.com/JoeFerrucci/JoeFerrucci/master/public/projects/bookleaf-icon.png" width="32" /></td>
-<td><strong>BookLeaf</strong> — Founder & Principal Software Engineer <em>(Jan 2013 – Present)</em> · Founder<br/>Founded and built an AI-powered scheduling platform for appointment booking and group scheduling. Lead every aspect of the business — product strategy, UX, architecture, and implementation: booking links, group scheduling polls, multi-calendar sync, automated reminders, and AI-assisted scheduling workflows.</td>
+<td><strong>BookLeaf</strong> — Founder & Principal Software Engineer <em>(Jan 2013 – Present)</em> · Founder<br/><a href="https://www.bookleaf.us">https://www.bookleaf.us</a> — Founded and built an AI-powered scheduling platform for appointment booking and group scheduling. Lead every aspect of the business — product strategy, UX, architecture, and implementation: booking links, group scheduling polls, multi-calendar sync, automated reminders, and AI-assisted scheduling workflows.</td>
 </tr>
 <tr>
 <td><img src="https://raw.githubusercontent.com/JoeFerrucci/JoeFerrucci/master/public/logos/taya.png" width="32" /></td>
