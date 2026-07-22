@@ -145,6 +145,20 @@ export const DATA = {
       skills: ["Go", "AWS", "Snowflake", "AI", "RAG", "System Architecture", "Content Partnerships", "Knowledge Engineering"],
     },
     {
+      company: "BookLeaf",
+      href: "https://www.bookleaf.us",
+      badges: ["Founder"],
+      location: "Remote",
+      title: "Founder & Principal Software Engineer",
+      logoUrl: "/projects/bookleaf-icon.png",
+      start: "January 2013",
+      end: "Present",
+      description:
+        "Founded and built BookLeaf, an AI-powered scheduling platform that simplifies appointment booking and group scheduling for individuals and teams. Lead every aspect of the business — from product strategy and UX to architecture and implementation: native client experience, backend services, APIs, calendar integrations, authentication, payments, and cloud infrastructure. Built customizable booking links, intelligent group scheduling polls, recurring availability, multi-calendar sync, automated reminders, and AI-assisted scheduling workflows.",
+      moreDetails: "",
+      skills: ["TypeScript", "React", "Node.js", "PostgreSQL", "System Architecture", "AI", "Product Design", "Product Development"],
+    },
+    {
       company: "Taya Necklace",
       href: "https://tayanecklace.com",
       badges: ["Contract"],
