@@ -126,7 +126,11 @@ function WorkItem({ work }: { work: WorkEntry }) {
 
 export default function WorkSection() {
   return (
-    <Accordion type="single" collapsible className="w-full grid gap-6">
+    <Accordion
+      type="multiple"
+      defaultValue={DATA.work.map((work) => work.company)}
+      className="w-full grid gap-6"
+    >
       {DATA.work.map((work) => (
         <WorkItem key={work.company} work={work} />
       ))}
