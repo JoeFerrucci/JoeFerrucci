@@ -148,7 +148,7 @@ export const DATA = {
       company: "BookLeaf",
       href: "https://www.bookleaf.us",
       badges: ["Founder"],
-      location: "Remote",
+      location: "In-Office",
       title: "Founder & Principal Software Engineer",
       logoUrl: "/projects/bookleaf-icon.png",
       start: "January 2013",
