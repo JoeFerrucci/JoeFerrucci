@@ -8,8 +8,32 @@ import {
 } from "@/components/ui/accordion";
 import { Badge } from "@/components/ui/badge";
 import { DATA } from "@/data/resume";
-import { ChevronDown, ChevronRight } from "lucide-react";
+import { ArrowUpRight, ChevronDown, ChevronRight } from "lucide-react";
 import { cn } from "@/lib/utils";
+
+// Renders description text with any URLs as styled pill links + external-link icon
+function LinkifiedDescription({ text }: { text: string }) {
+  return (
+    <p className="text-xs sm:text-sm text-muted-foreground">
+      {text.split(/(https?:\/\/[^\s]+)/g).map((part, i) =>
+        /^https?:\/\//.test(part) ? (
+          <a
+            key={i}
+            href={part}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="group/link inline-flex items-center gap-0.5 align-middle rounded-full border border-violet-200 bg-violet-50 px-2 py-0.5 text-xs font-medium text-violet-700 transition-colors hover:bg-violet-100 dark:border-violet-800 dark:bg-violet-950/50 dark:text-violet-400 dark:hover:bg-violet-900/50"
+          >
+            {part.replace("https://", "")}
+            <ArrowUpRight className="size-3 shrink-0 transition-transform duration-200 group-hover/link:translate-x-0.5 group-hover/link:-translate-y-0.5" />
+          </a>
+        ) : (
+          <span key={i}>{part}</span>
+        )
+      )}
+    </p>
+  );
+}
 
 function LogoImage({ src, alt }: { src: string; alt: string }) {
   const [imageError, setImageError] = useState(false);
@@ -87,7 +111,7 @@ function WorkItem({ work }: { work: WorkEntry }) {
         </div>
       </AccordionTrigger>
       <AccordionContent className="p-0 ml-13 flex flex-col gap-3">
-        <p className="text-xs sm:text-sm text-muted-foreground">{work.description}</p>
+        <LinkifiedDescription text={work.description} />
         {"skills" in work && work.skills.length > 0 && (
           <div className="flex flex-wrap gap-1">
             {work.skills.map((skill) => (
