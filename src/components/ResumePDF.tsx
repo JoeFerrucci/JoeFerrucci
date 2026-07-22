@@ -52,6 +52,13 @@ const V_PAD = 40;
 const CARD_GAP = 7;
 const FEATURED_PROJECTS = ["BookLeaf", "TrailMix", "Hodu Coffee"];
 
+// External-link arrow, inlined as PNG — Outfit has no ↗ glyph, and react-pdf
+// can't place <Svg> inside flowing <Text> (inline <Image> works)
+const LINK_ARROW =
+  "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAAAsTAAALEwEAmpwYAAABMUlEQVR4nO2YsU7DMBBA/Q38Amp8gS9LsQ9lYi0b7Cx8AWxMfAmg3DFVFRI7HTu0MkhMbZO4dnKR7kleoujynmQPjjGKoiiKoijDUV+8n/mCKg90k2K5srn10Ly4onnyl2/n+eUtLz3wNsuyvMka4YDm2eThb10BP086wFl6ne4WgrCNmvtsAf8RBVXO8l3vBfTo4POn5RwsjESw/Jg5oK8OB3lhJisPAgOOylteiw5okf9Gyw9iA9rkr2dcBlmRAV3kw3teYkBXeZEB2ENeXAD2lBcVgBHyYgIwUl5EAJ4gP3oAnig/agAmkB8tABPJjxJQ/15oaLVPPkSFuD7z/NABh66UMfJiAlyk/JF5czPYndjSKlZ+/zxehmdprQ/92CqoSvGxOvE8RVEURVEU050dxT+/KkxG3pAAAAAASUVORK5CYII=";
+
+const URL_SPLIT = /(https?:\/\/[^\s]+)/g;
+
 // Local logo overrides — google favicon URLs fail in react-pdf (redirect/WebP issues)
 const LOCAL_LOGOS: Record<string, string> = {
   "New Mountain Capital":           "/logos/newmountaincapital.png",
@@ -196,6 +203,15 @@ const s = StyleSheet.create({
     color: MUTED,
     lineHeight: 1.55,
   },
+  descLink: {
+    color: "#6d28d9", // violet-700 — matches site accent
+    fontWeight: 500,
+    textDecoration: "underline",
+  },
+  descLinkIcon: {
+    width: 6,
+    height: 6,
+  },
   // ── Education ───────────────────────────────────────────────
   eduRow: {
     flexDirection: "row",
@@ -240,6 +256,25 @@ const s = StyleSheet.create({
   projectLink: { fontSize: 7, color: MUTED, textDecoration: "none" },
 });
 
+// Renders description text with any URLs as styled links + external-link arrow
+function LinkifiedDesc({ text }: { text: string }) {
+  return (
+    <Text style={s.cardDesc}>
+      {text.split(URL_SPLIT).map((part, i) =>
+        /^https?:\/\//.test(part) ? (
+          <Link key={i} src={part} style={s.descLink}>
+            {part.replace("https://", "")}
+            {" "}
+            <Image src={LINK_ARROW} style={s.descLinkIcon} />
+          </Link>
+        ) : (
+          <Text key={i}>{part}</Text>
+        )
+      )}
+    </Text>
+  );
+}
+
 function Section({ title }: { title: string }) {
   return (
     <View style={s.sectionHeader}>
@@ -273,7 +308,7 @@ function WorkCard({ work: w }: { work: WorkEntry }) {
           {w.start} – {w.end ?? DATA.sections.work.presentLabel}
         </Text>
       </View>
-      <Text style={s.cardDesc}>{w.description}</Text>
+      <LinkifiedDesc text={w.description} />
     </View>
   );
 }
