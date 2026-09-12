@@ -20,8 +20,8 @@ export const DATA = {
   name: "Joe Ferrucci",
   initials: "JF",
   url: "https://joef.us",
-  location: "Denver, Colorado",
-  locationLink: "https://www.google.com/maps/place/denver+colorado",
+  location: "Missouri, USA",
+  locationLink: "https://www.google.com/maps/place/missouri",
   description:
     "Principal Mobile + AI Engineer\nI build high-quality apps and AI systems — and lead the teams that ship them.",
   summary:
