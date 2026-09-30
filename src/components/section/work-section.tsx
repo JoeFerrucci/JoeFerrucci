@@ -111,7 +111,7 @@ function WorkItem({ work }: { work: WorkEntry }) {
         </div>
       </AccordionTrigger>
       <AccordionContent className="p-0 ml-13 flex flex-col gap-3">
-        <LinkifiedDescription text={work.description} />
+        {work.description && <LinkifiedDescription text={work.description} />}
         {"skills" in work && work.skills.length > 0 && (
           <div className="flex flex-wrap gap-1">
             {work.skills.map((skill) => (

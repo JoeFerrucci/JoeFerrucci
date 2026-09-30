@@ -131,6 +131,19 @@ export const DATA = {
 
   work: [
     {
+      company: "Crossway",
+      href: "https://www.crossway.org",
+      badges: ["Contract"],
+      location: "Remote",
+      title: "Software Consultant",
+      logoUrl: "/logos/crossway.png",
+      start: "September 2026",
+      end: "Present",
+      description: "https://www.crossway.org",
+      moreDetails: "",
+      skills: [],
+    },
+    {
       company: "New Mountain Capital",
       href: "https://www.newmountaincapital.com",
       badges: ["Contract"],

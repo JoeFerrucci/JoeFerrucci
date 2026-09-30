@@ -36,6 +36,10 @@ I stay close to the edge of AI — building custom agentic workflows that have m
 
 <table>
 <tr>
+<td><img src="https://raw.githubusercontent.com/JoeFerrucci/JoeFerrucci/master/public/logos/crossway.png" width="32" /></td>
+<td><strong>Crossway</strong> — Software Consultant <em>(Sep 2026 – Present)</em> · Contract<br/><a href="https://www.crossway.org"><strong>www.crossway.org ↗</strong></a></td>
+</tr>
+<tr>
 <td><img src="https://raw.githubusercontent.com/JoeFerrucci/JoeFerrucci/master/public/logos/newmountaincapital.png" width="32" /></td>
 <td><strong>New Mountain Capital</strong> — Founding Architect, AI Content Infrastructure <em>(May 2026 – Present)</em> · Contract<br/>Leading engineering on RightsSync with New Mountain Capital and BMI: a permissioned publisher knowledge base for LLM grounding and retrieval. Architecting the platform end-to-end — retrieval, governance/provenance controls, and the infrastructure for scalable publisher and AI partnerships.</td>
 </tr>

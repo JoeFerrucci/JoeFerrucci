@@ -61,6 +61,7 @@ const URL_SPLIT = /(https?:\/\/[^\s]+)/g;
 
 // Local logo overrides — google favicon URLs fail in react-pdf (redirect/WebP issues)
 const LOCAL_LOGOS: Record<string, string> = {
+  "Crossway":                       "/logos/crossway.png",
   "New Mountain Capital":           "/logos/newmountaincapital.png",
   "Glue AI":                        "/logos/glue.png",
   "Dialpad":                        "/logos/dialpad.png",
@@ -308,7 +309,7 @@ function WorkCard({ work: w }: { work: WorkEntry }) {
           {w.start} – {w.end ?? DATA.sections.work.presentLabel}
         </Text>
       </View>
-      <LinkifiedDesc text={w.description} />
+      {w.description && <LinkifiedDesc text={w.description} />}
     </View>
   );
 }
