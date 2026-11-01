@@ -49,7 +49,7 @@ I stay close to the edge of AI — building custom agentic workflows that have m
 </tr>
 <tr>
 <td><img src="https://raw.githubusercontent.com/JoeFerrucci/JoeFerrucci/master/public/logos/crossway.png" width="32" /></td>
-<td><strong>Crossway</strong> — Software Consultant <em>(Aug 2026 – Nov 2026)</em> · Contract<br/><a href="https://www.crossway.org"><strong>www.crossway.org ↗</strong></a></td>
+<td><strong>Crossway</strong> — Software Consultant <em>(Aug 2026 – Nov 2026)</em> · Contract<br/><a href="https://www.crossway.org"><strong>www.crossway.org ↗</strong></a> — ESV Bible App + New City Catechism on Apple platforms.</td>
 </tr>
 <tr>
 <td><img src="https://raw.githubusercontent.com/JoeFerrucci/JoeFerrucci/master/public/logos/taya.png" width="32" /></td>
