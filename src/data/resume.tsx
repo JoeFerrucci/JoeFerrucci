@@ -181,7 +181,7 @@ export const DATA = {
       logoUrl: "/logos/crossway.png",
       start: "August 2026",
       end: "November 2026",
-      description: "https://www.crossway.org",
+      description: "https://www.crossway.org — ESV Bible App + New City Catechism on Apple platforms.",
       moreDetails: "",
       skills: [],
     },
