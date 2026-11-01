@@ -131,19 +131,6 @@ export const DATA = {
 
   work: [
     {
-      company: "Crossway",
-      href: "https://www.crossway.org",
-      badges: ["Contract"],
-      location: "Remote",
-      title: "Software Consultant",
-      logoUrl: "/logos/crossway.png",
-      start: "August 2026",
-      end: "November 2026",
-      description: "https://www.crossway.org",
-      moreDetails: "",
-      skills: [],
-    },
-    {
       company: "City Detect",
       href: "https://www.citydetect.com",
       badges: ["Contract"],
@@ -184,6 +171,19 @@ export const DATA = {
         "https://www.bookleaf.us — Founded and built BookLeaf, an AI-powered scheduling platform that simplifies appointment booking and group scheduling for individuals and teams. Lead every aspect of the business — from product strategy and UX to architecture and implementation: native client experience, backend services, APIs, calendar integrations, authentication, payments, and cloud infrastructure. Built customizable booking links, intelligent group scheduling polls, recurring availability, multi-calendar sync, automated reminders, and AI-assisted scheduling workflows.",
       moreDetails: "",
       skills: ["TypeScript", "React", "Node.js", "PostgreSQL", "System Architecture", "AI", "Product Design", "Product Development", "Start-up Leadership", "Start-up Ventures", "Knowledge Engineering"],
+    },
+    {
+      company: "Crossway",
+      href: "https://www.crossway.org",
+      badges: ["Contract"],
+      location: "Remote",
+      title: "Software Consultant",
+      logoUrl: "/logos/crossway.png",
+      start: "August 2026",
+      end: "November 2026",
+      description: "https://www.crossway.org",
+      moreDetails: "",
+      skills: [],
     },
     {
       company: "Taya Necklace",

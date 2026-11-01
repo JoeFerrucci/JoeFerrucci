@@ -36,10 +36,6 @@ I stay close to the edge of AI — building custom agentic workflows that have m
 
 <table>
 <tr>
-<td><img src="https://raw.githubusercontent.com/JoeFerrucci/JoeFerrucci/master/public/logos/crossway.png" width="32" /></td>
-<td><strong>Crossway</strong> — Software Consultant <em>(Aug 2026 – Nov 2026)</em> · Contract<br/><a href="https://www.crossway.org"><strong>www.crossway.org ↗</strong></a></td>
-</tr>
-<tr>
 <td><img src="https://raw.githubusercontent.com/JoeFerrucci/JoeFerrucci/master/public/logos/citydetect.png" width="32" /></td>
 <td><strong>City Detect</strong> — Full Stack Product Engineer (Design & Geospatial Focus) <em>(Aug 2026 – Present)</em> · Contract<br/>Responsible for the architecture, development, testing, and maintenance of our full stack systems, with particular emphasis on building intuitive, well-designed user interfaces — including interactive maps and geospatial data visualizations. Working closely with founders and team leads, ensuring our frontend experiences, APIs, and data pipelines are performant, reliable, and delightful to use as we grow.</td>
 </tr>
@@ -50,6 +46,10 @@ I stay close to the edge of AI — building custom agentic workflows that have m
 <tr>
 <td><img src="https://raw.githubusercontent.com/JoeFerrucci/JoeFerrucci/master/public/projects/bookleaf-icon.png" width="32" /></td>
 <td><strong>BookLeaf</strong> — Founder & Principal Software Engineer <em>(Jan 2013 – Present)</em> · Founder<br/><a href="https://www.bookleaf.us"><strong>www.bookleaf.us ↗</strong></a> — Founded and built an AI-powered scheduling platform for appointment booking and group scheduling. Lead every aspect of the business — product strategy, UX, architecture, and implementation: booking links, group scheduling polls, multi-calendar sync, automated reminders, and AI-assisted scheduling workflows.</td>
+</tr>
+<tr>
+<td><img src="https://raw.githubusercontent.com/JoeFerrucci/JoeFerrucci/master/public/logos/crossway.png" width="32" /></td>
+<td><strong>Crossway</strong> — Software Consultant <em>(Aug 2026 – Nov 2026)</em> · Contract<br/><a href="https://www.crossway.org"><strong>www.crossway.org ↗</strong></a></td>
 </tr>
 <tr>
 <td><img src="https://raw.githubusercontent.com/JoeFerrucci/JoeFerrucci/master/public/logos/taya.png" width="32" /></td>
