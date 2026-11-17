@@ -357,6 +357,25 @@ export const DATA = {
       video: "",
     },
     {
+      title: "Pathfinder",
+      href: "https://www.runpathfinder.com",
+      icon: "/projects/pathfinder-icon.png",
+      dates: "2026 - Present",
+      active: true,
+      description:
+        "Live group map for run clubs. Start together, finish together — see every runner on the course, who's still out, who's back at the meeting point, and whose location has gone stale. Events with GPX or Strava courses, Lock Screen and Dynamic Island Live Activities, and offline-capable Apple Watch sharing. Shares only the latest position — no track history, no ads.",
+      technologies: ["Swift", "SwiftUI", "watchOS", "MapKit", "ActivityKit"],
+      links: [
+        {
+          type: "Website",
+          href: "https://www.runpathfinder.com",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "/projects/pathfinder.png",
+      video: "",
+    },
+    {
       title: "TrailMix",
       href: "https://www.trailmix.club",
       icon: "/projects/trailmix-icon.png",

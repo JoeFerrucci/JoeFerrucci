@@ -145,6 +145,19 @@ Scheduling SaaS that kills the back-and-forth. Share one link — guests pick a 
 </td>
 <td width="50%" valign="top">
 
+**[Pathfinder](https://www.runpathfinder.com)** &nbsp; *(2026 – Present)*
+
+<img src="https://raw.githubusercontent.com/JoeFerrucci/JoeFerrucci/master/public/projects/pathfinder.png" width="100%" />
+
+Live group map for run clubs. See every runner on the course, who's still out, and who's back at the meeting point. Lock Screen Live Activities and Apple Watch sharing.
+
+`Swift` `SwiftUI` `watchOS` `MapKit`
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
 **[TrailMix](https://www.trailmix.club)** &nbsp; *(2024 – Present)*
 
 <img src="https://raw.githubusercontent.com/JoeFerrucci/JoeFerrucci/master/public/projects/trailmix.png" width="100%" />
@@ -154,8 +167,6 @@ Real-time AI running coach for Apple Watch. Ask anything mid-run — listens via
 `Swift` `SwiftUI` `watchOS` `HealthKit`
 
 </td>
-</tr>
-<tr>
 <td width="50%" valign="top">
 
 **[MultiController](https://github.com/JoeFerrucci/MultiController)** &nbsp; *(2024 – Present)*
@@ -167,6 +178,8 @@ One wrist. Every room. Instantly discovers every Roku TV and Sonos speaker on yo
 `Swift` `SwiftUI` `watchOS`
 
 </td>
+</tr>
+<tr>
 <td width="50%" valign="top">
 
 **[Hodu Coffee](https://www.hoducoffee.com)** &nbsp; *(2019 – Present)*
@@ -176,8 +189,6 @@ One wrist. Every room. Instantly discovers every Roku TV and Sonos speaker on yo
 Small Missouri roaster named after the Hebrew word for "give thanks." Single-origin Ethiopia, Colombia, and Guatemala — roasted Tuesday and Friday, shipped within the week. Born out of a closed door and a friend's gift, coffee as a quiet invitation to slow down.
 
 </td>
-</tr>
-<tr>
 <td width="50%" valign="top">
 
 **[F3 Nation](https://www.f3nation.com)** &nbsp; *(2020 – Present)*
@@ -187,7 +198,6 @@ Small Missouri roaster named after the Hebrew word for "give thanks." Single-ori
 Free, peer-led men's fitness and leadership community. I lead an F3 region of 300+ men.
 
 </td>
-<td></td>
 </tr>
 </table>
 
