@@ -158,6 +158,30 @@ Live group map for run clubs. See every runner on the course, who's still out, a
 <tr>
 <td width="50%" valign="top">
 
+**[Weft - Cloud Clipboard](https://apps.apple.com/us/app/weft-cloud-clipboard/id6804061911)** &nbsp; *(2026 – Present)*
+
+<img src="https://raw.githubusercontent.com/JoeFerrucci/JoeFerrucci/master/public/projects/weft.png" width="100%" />
+
+Your clipboard, with a memory. Everything you copy syncs through iCloud across Mac, iPhone, iPad, Apple Watch, and the web — searchable, annotatable, and private by design.
+
+`Swift` `SwiftUI` `SwiftData` `CloudKit`
+
+</td>
+<td width="50%" valign="top">
+
+**[Night Light - Reading Light](https://apps.apple.com/us/app/night-light-reading-light/id6759557006)** &nbsp; *(2026 – Present)*
+
+<img src="https://raw.githubusercontent.com/JoeFerrucci/JoeFerrucci/master/public/projects/nightlight.png" width="100%" />
+
+Turns your iPhone into a warm, gentle reading light — dimmer than iOS allows, with four warmth tones, a sleep timer, and control lock. No ads, no account, no tracking.
+
+`Swift` `SwiftUI` `StoreKit`
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
 **[TrailMix](https://www.trailmix.club)** &nbsp; *(2024 – Present)*
 
 <img src="https://raw.githubusercontent.com/JoeFerrucci/JoeFerrucci/master/public/projects/trailmix.png" width="100%" />

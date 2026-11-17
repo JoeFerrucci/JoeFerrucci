@@ -376,6 +376,44 @@ export const DATA = {
       video: "",
     },
     {
+      title: "Weft - Cloud Clipboard",
+      href: "https://apps.apple.com/us/app/weft-cloud-clipboard/id6804061911",
+      icon: "/projects/weft-icon.png",
+      dates: "2026 - Present",
+      active: true,
+      description:
+        "Your clipboard, with a memory. Weft keeps everything you copy — text, links, images, files, rich text — and syncs it through iCloud across Mac, iPhone, iPad, Apple Watch, and the web. Instant search across your whole history, notes on any clip, and private by design: it skips password-manager and one-time-code copies, and your history lives in your own private iCloud database.",
+      technologies: ["Swift", "SwiftUI", "AppKit", "SwiftData", "CloudKit"],
+      links: [
+        {
+          type: "App Store",
+          href: "https://apps.apple.com/us/app/weft-cloud-clipboard/id6804061911",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "/projects/weft.png",
+      video: "",
+    },
+    {
+      title: "Night Light - Reading Light",
+      href: "https://apps.apple.com/us/app/night-light-reading-light/id6759557006",
+      icon: "/projects/nightlight-icon.png",
+      dates: "2026 - Present",
+      active: true,
+      description:
+        "Turns your iPhone into a warm, gentle reading light — dimmer than iOS normally allows, so you can read in bed without waking anyone. Four warmth tones (Red preserves night vision), swipe gestures for brightness and warmth, a sleep timer, control lock, torch mode, and presets. No ads, no account, no tracking.",
+      technologies: ["Swift", "SwiftUI", "StoreKit", "AVFoundation"],
+      links: [
+        {
+          type: "App Store",
+          href: "https://apps.apple.com/us/app/night-light-reading-light/id6759557006",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "/projects/nightlight.png",
+      video: "",
+    },
+    {
       title: "TrailMix",
       href: "https://www.trailmix.club",
       icon: "/projects/trailmix-icon.png",
