@@ -71,6 +71,7 @@ export const DATA = {
     { name: "GraphQL", icon: GraphQL },
     { name: "Go", icon: Golang },
     { name: "React", icon: ReactLight },
+    { name: "React Native", icon: ReactLight },
     { name: "TypeScript", icon: Typescript },
     { name: "Python", icon: Python },
     { name: "Node.js", icon: Nodejs },
