@@ -37,7 +37,7 @@ I stay close to the edge of AI — building custom agentic workflows that have m
 <table>
 <tr>
 <td><img src="https://raw.githubusercontent.com/JoeFerrucci/JoeFerrucci/master/public/logos/citydetect.png" width="32" /></td>
-<td><strong>City Detect</strong> — Full Stack Product Engineer (Design & Geospatial Focus) <em>(Aug 2026 – Present)</em> · Contract<br/>Responsible for the architecture, development, testing, and maintenance of our full stack systems, with particular emphasis on building intuitive, well-designed user interfaces — including interactive maps and geospatial data visualizations. Working closely with founders and team leads, ensuring our frontend experiences, APIs, and data pipelines are performant, reliable, and delightful to use as we grow.</td>
+<td><strong>City Detect</strong> — Full Stack Product Engineer (Design & Geospatial Focus) <em>(Aug 2026 – Jan 2027)</em> · Contract<br/>Responsible for the architecture, development, testing, and maintenance of our full stack systems, with particular emphasis on building intuitive, well-designed user interfaces — including interactive maps and geospatial data visualizations. Working closely with founders and team leads, ensuring our frontend experiences, APIs, and data pipelines are performant, reliable, and delightful to use as we grow.</td>
 </tr>
 <tr>
 <td><img src="https://raw.githubusercontent.com/JoeFerrucci/JoeFerrucci/master/public/logos/newmountaincapital.png" width="32" /></td>
@@ -230,7 +230,12 @@ Free, peer-led men's fitness and leadership community. I lead an F3 region of 30
 
 ## Education
 
-🎓 **University of California, Davis** — M.S. / B.S., Computer Science & Statistics
+<table>
+<tr>
+<td><img src="https://raw.githubusercontent.com/JoeFerrucci/JoeFerrucci/master/public/logos/ucdavis.png" width="32" /></td>
+<td><strong>University of California, Davis</strong> — M.S. / B.S., Computer Science & Statistics</td>
+</tr>
+</table>
 
 ---
 

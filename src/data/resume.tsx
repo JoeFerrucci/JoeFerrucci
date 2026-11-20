@@ -138,7 +138,7 @@ export const DATA = {
       title: "Full Stack Product Engineer (Design & Geospatial Focus)",
       logoUrl: "/logos/citydetect.png",
       start: "August 2026",
-      end: "Present",
+      end: "January 2027",
       description:
         "Responsible for the architecture, development, testing, and maintenance of our full stack systems, with particular emphasis on building intuitive, well-designed user interfaces — including interactive maps and geospatial data visualizations. Working closely with founders and team leads, ensuring our frontend experiences, APIs, and data pipelines are performant, reliable, and delightful to use as we grow.",
       moreDetails: "",
@@ -331,7 +331,7 @@ export const DATA = {
       school: "University of California, Davis",
       href: "https://ucdavis.edu",
       degree: "M.S. / B.S., Computer Science & Statistics",
-      logoUrl: "https://www.google.com/s2/favicons?domain=ucdavis.edu&sz=128",
+      logoUrl: "/logos/ucdavis.png",
       start: "",
       end: "",
     },

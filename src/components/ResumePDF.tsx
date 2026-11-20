@@ -219,6 +219,8 @@ const s = StyleSheet.create({
     justifyContent: "space-between",
     alignItems: "flex-start",
   },
+  eduLeft: { flexDirection: "row", alignItems: "center", gap: 6 },
+  eduLogo: { width: 20, height: 20, borderRadius: 3, flexShrink: 0 },
   eduSchool: { fontSize: 10, fontWeight: 600, color: FG, marginBottom: 1 },
   eduDegree: { fontSize: 8.5, color: MUTED },
   // ── Skills chips ─────────────────────────────────────────────
@@ -400,9 +402,14 @@ export function ResumePDF() {
         <Section title="Education" />
         {DATA.education.map((e) => (
           <View key={e.school} style={s.eduRow} wrap={false}>
-            <View>
-              <Text style={s.eduSchool}>{e.school}</Text>
-              <Text style={s.eduDegree}>{e.degree}</Text>
+            <View style={s.eduLeft}>
+              {e.logoUrl && (
+                <Image src={`${window.location.origin}${e.logoUrl}`} style={s.eduLogo} />
+              )}
+              <View>
+                <Text style={s.eduSchool}>{e.school}</Text>
+                <Text style={s.eduDegree}>{e.degree}</Text>
+              </View>
             </View>
             {(e.start || e.end) && (
               <Text style={s.cardDates}>
@@ -412,14 +419,16 @@ export function ResumePDF() {
           </View>
         ))}
 
-        {/* ── Skills ── */}
-        <Section title="Skills" />
-        <View style={s.skillsWrap}>
-          {DATA.skills.map((sk) => (
-            <View key={sk.name} style={s.skillChip}>
-              <Text style={s.skillChipText}>{sk.name}</Text>
-            </View>
-          ))}
+        {/* ── Skills ── (kept as one block so chips never split across pages) */}
+        <View wrap={false}>
+          <Section title="Skills" />
+          <View style={s.skillsWrap}>
+            {DATA.skills.map((sk) => (
+              <View key={sk.name} style={s.skillChip}>
+                <Text style={s.skillChipText}>{sk.name}</Text>
+              </View>
+            ))}
+          </View>
         </View>
 
         {/* ── Projects ── */}
