@@ -37,7 +37,7 @@ I stay close to the edge of AI — building custom agentic workflows that have m
 <table>
 <tr>
 <td><img src="https://raw.githubusercontent.com/JoeFerrucci/JoeFerrucci/master/public/logos/citydetect.png" width="32" /></td>
-<td><strong>City Detect</strong> — Full Stack Product Engineer (Design & Geospatial Focus) <em>(Aug 2026 – Present)</em> · Contract<br/>Responsible for the architecture, development, testing, and maintenance of our full stack systems, with particular emphasis on building intuitive, well-designed user interfaces — including interactive maps and geospatial data visualizations. Working closely with founders and team leads, ensuring our frontend experiences, APIs, and data pipelines are performant, reliable, and delightful to use as we grow.</td>
+<td><strong>City Detect</strong> — Full Stack Product Engineer (Design & Geospatial Focus) <em>(Aug 2026 – Jan 2027)</em> · Contract<br/>Responsible for the architecture, development, testing, and maintenance of our full stack systems, with particular emphasis on building intuitive, well-designed user interfaces — including interactive maps and geospatial data visualizations. Working closely with founders and team leads, ensuring our frontend experiences, APIs, and data pipelines are performant, reliable, and delightful to use as we grow.</td>
 </tr>
 <tr>
 <td><img src="https://raw.githubusercontent.com/JoeFerrucci/JoeFerrucci/master/public/logos/newmountaincapital.png" width="32" /></td>
@@ -121,10 +121,12 @@ I stay close to the edge of AI — building custom agentic workflows that have m
 ![RAG](https://img.shields.io/badge/RAG-555?style=flat-square)
 ![Knowledge Graph Embeddings](https://img.shields.io/badge/Knowledge%20Graph%20Embeddings-555?style=flat-square)
 ![Speech Synthesis](https://img.shields.io/badge/Speech%20Synthesis-555?style=flat-square)
-![Hands-on Technical Leadership](https://img.shields.io/badge/Hands--on%20Technical%20Leadership-555?style=flat-square)
+![Cross-functional Coordination](https://img.shields.io/badge/Cross--functional%20Coordination-555?style=flat-square)
 ![Cross-functional Team Leadership](https://img.shields.io/badge/Cross--functional%20Team%20Leadership-555?style=flat-square)
+![Hands-on Technical Leadership](https://img.shields.io/badge/Hands--on%20Technical%20Leadership-555?style=flat-square)
 ![Management](https://img.shields.io/badge/Management-555?style=flat-square)
 ![Product Design](https://img.shields.io/badge/Product%20Design-F24E1E?style=flat-square&logo=figma&logoColor=white)
+![Mobile Enterprise](https://img.shields.io/badge/Mobile%20Enterprise-555?style=flat-square)
 ![Product Development](https://img.shields.io/badge/Product%20Development-555?style=flat-square)
 
 ---
@@ -194,7 +196,7 @@ Real-time AI running coach for Apple Watch. Ask anything mid-run — listens via
 </td>
 <td width="50%" valign="top">
 
-**[MultiController](https://github.com/JoeFerrucci/MultiController)** &nbsp; *(2024 – Present)*
+**[MultiController](https://apps.apple.com/us/app/multicontroller/id6740115662)** &nbsp; *(2024 – Present)*
 
 <img src="https://raw.githubusercontent.com/JoeFerrucci/JoeFerrucci/master/public/projects/multicontroller.jpg" width="100%" />
 
@@ -230,7 +232,12 @@ Free, peer-led men's fitness and leadership community. I lead an F3 region of 30
 
 ## Education
 
-🎓 **University of California, Davis** — M.S. / B.S., Computer Science & Statistics
+<table>
+<tr>
+<td><img src="https://raw.githubusercontent.com/JoeFerrucci/JoeFerrucci/master/public/logos/ucdavis.png" width="32" /></td>
+<td><strong>University of California, Davis</strong> — M.S. / B.S., Computer Science & Statistics</td>
+</tr>
+</table>
 
 ---
 
