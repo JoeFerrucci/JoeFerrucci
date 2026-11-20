@@ -121,10 +121,12 @@ I stay close to the edge of AI — building custom agentic workflows that have m
 ![RAG](https://img.shields.io/badge/RAG-555?style=flat-square)
 ![Knowledge Graph Embeddings](https://img.shields.io/badge/Knowledge%20Graph%20Embeddings-555?style=flat-square)
 ![Speech Synthesis](https://img.shields.io/badge/Speech%20Synthesis-555?style=flat-square)
-![Hands-on Technical Leadership](https://img.shields.io/badge/Hands--on%20Technical%20Leadership-555?style=flat-square)
+![Cross-functional Coordination](https://img.shields.io/badge/Cross--functional%20Coordination-555?style=flat-square)
 ![Cross-functional Team Leadership](https://img.shields.io/badge/Cross--functional%20Team%20Leadership-555?style=flat-square)
+![Hands-on Technical Leadership](https://img.shields.io/badge/Hands--on%20Technical%20Leadership-555?style=flat-square)
 ![Management](https://img.shields.io/badge/Management-555?style=flat-square)
 ![Product Design](https://img.shields.io/badge/Product%20Design-F24E1E?style=flat-square&logo=figma&logoColor=white)
+![Mobile Enterprise](https://img.shields.io/badge/Mobile%20Enterprise-555?style=flat-square)
 ![Product Development](https://img.shields.io/badge/Product%20Development-555?style=flat-square)
 
 ---
@@ -194,7 +196,7 @@ Real-time AI running coach for Apple Watch. Ask anything mid-run — listens via
 </td>
 <td width="50%" valign="top">
 
-**[MultiController](https://github.com/JoeFerrucci/MultiController)** &nbsp; *(2024 – Present)*
+**[MultiController](https://apps.apple.com/us/app/multicontroller/id6740115662)** &nbsp; *(2024 – Present)*
 
 <img src="https://raw.githubusercontent.com/JoeFerrucci/JoeFerrucci/master/public/projects/multicontroller.jpg" width="100%" />
 

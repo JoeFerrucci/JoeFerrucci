@@ -434,7 +434,7 @@ export const DATA = {
     },
     {
       title: "MultiController",
-      href: "https://github.com/JoeFerrucci/MultiController",
+      href: "https://apps.apple.com/us/app/multicontroller/id6740115662",
       icon: "/projects/multicontroller-icon.jpg",
       dates: "2024 - Present",
       active: false,
@@ -443,9 +443,9 @@ export const DATA = {
       technologies: ["Swift", "SwiftUI", "watchOS"],
       links: [
         {
-          type: "GitHub",
-          href: "https://github.com/JoeFerrucci/MultiController",
-          icon: <Icons.github className="size-3" />,
+          type: "App Store",
+          href: "https://apps.apple.com/us/app/multicontroller/id6740115662",
+          icon: <Icons.globe className="size-3" />,
         },
       ],
       image: "/projects/multicontroller.jpg",

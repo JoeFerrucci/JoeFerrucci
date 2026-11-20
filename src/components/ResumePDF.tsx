@@ -45,16 +45,19 @@ const BADGE_BORDER = "#bfdbfe"; // blue-200
 const BADGE_FG     = "#1d4ed8"; // blue-700
 // Skill chips mirror the website: white chip, light border, dark text + icon
 export const SKILL_ICON_COLOR = FG;
+export const LINK_ICON_COLOR = MUTED;
 
 const H_PAD = 48;
 const V_PAD = 40;
 const CARD_GAP = 7;
-const FEATURED_PROJECTS = ["BookLeaf", "TrailMix", "Hodu Coffee"];
 
 // External-link arrow, inlined as PNG — Outfit has no ↗ glyph, and react-pdf
 // can't place <Svg> inside flowing <Text> (inline <Image> works)
 const LINK_ARROW =
   "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAAAsTAAALEwEAmpwYAAABMUlEQVR4nO2YsU7DMBBA/Q38Amp8gS9LsQ9lYi0b7Cx8AWxMfAmg3DFVFRI7HTu0MkhMbZO4dnKR7kleoujynmQPjjGKoiiKoijDUV+8n/mCKg90k2K5srn10Ly4onnyl2/n+eUtLz3wNsuyvMka4YDm2eThb10BP086wFl6ne4WgrCNmvtsAf8RBVXO8l3vBfTo4POn5RwsjESw/Jg5oK8OB3lhJisPAgOOylteiw5okf9Gyw9iA9rkr2dcBlmRAV3kw3teYkBXeZEB2ENeXAD2lBcVgBHyYgIwUl5EAJ4gP3oAnig/agAmkB8tABPJjxJQ/15oaLVPPkSFuD7z/NABh66UMfJiAlyk/JF5czPYndjSKlZ+/zxehmdprQ/92CqoSvGxOvE8RVEURVEU050dxT+/KkxG3pAAAAAASUVORK5CYII=";
+
+// Projects shown on the site but left off the PDF resume
+const PDF_EXCLUDED_PROJECTS = ["TrailMix", "F3 Nation"];
 
 const URL_SPLIT = /(https?:\/\/[^\s]+)/g;
 
@@ -260,6 +263,20 @@ const s = StyleSheet.create({
   projectTitleBlock: { flex: 1 },
   projectTitle: { fontSize: 9.5, fontWeight: 700, color: FG, marginBottom: 1 },
   projectLink: { fontSize: 7, color: MUTED, textDecoration: "none" },
+  projectLinkRow: { flexDirection: "row", alignItems: "center", gap: 2 },
+  projectLinkIcon: { width: 6.5, height: 6.5 },
+  // Tech tags mirror the site's outline badges; pinned to the card bottom
+  projectTags: { flexDirection: "row", flexWrap: "wrap", gap: 3, marginTop: "auto", paddingTop: 5 },
+  projectTag: {
+    fontSize: 6.5,
+    fontWeight: 500,
+    color: SECONDARY_FG,
+    borderWidth: 0.75,
+    borderColor: BORDER,
+    borderRadius: 4,
+    paddingHorizontal: 4,
+    paddingVertical: 1.5,
+  },
 });
 
 // Renders description text with any URLs as styled links + external-link arrow
@@ -319,7 +336,7 @@ function WorkCard({ work: w }: { work: WorkEntry }) {
   );
 }
 
-function ProjectCard({ project: p }: { project: ProjectEntry }) {
+function ProjectCard({ project: p, linkIcon }: { project: ProjectEntry; linkIcon?: string }) {
   const origin = typeof window !== "undefined" ? window.location.origin : "";
   return (
     <View style={s.card} wrap={false}>
@@ -331,20 +348,46 @@ function ProjectCard({ project: p }: { project: ProjectEntry }) {
           <View style={s.projectTitleBlock}>
             <Text style={s.projectTitle}>{p.title}</Text>
             {p.href && (
-              <Link src={p.href} style={s.projectLink}>
-                {p.href.replace("https://", "").replace(/\/$/, "")}
-              </Link>
+              <View style={s.projectLinkRow}>
+                <Link src={p.href} style={s.projectLink}>
+                  {projectLinkLabel(p.href)}
+                </Link>
+                {linkIcon && (
+                  <Link src={p.href}>
+                    <Image src={linkIcon} style={s.projectLinkIcon} />
+                  </Link>
+                )}
+              </View>
             )}
           </View>
         </View>
         <Text style={s.cardDates}>{p.dates}</Text>
       </View>
       <Text style={s.cardDesc}>{p.description}</Text>
+      {p.technologies.length > 0 && (
+        <View style={s.projectTags}>
+          {p.technologies.map((tag) => (
+            <Text key={tag} style={s.projectTag}>{tag}</Text>
+          ))}
+        </View>
+      )}
     </View>
   );
 }
 
-export function ResumePDF({ skillIcons = {} }: { skillIcons?: Record<string, string> }) {
+// App Store URLs are long and unreadable in print; label them instead
+function projectLinkLabel(href: string): string {
+  if (href.includes("apps.apple.com")) return "App Store";
+  return href.replace(/^https?:\/\//, "").replace(/\/$/, "");
+}
+
+export function ResumePDF({
+  skillIcons = {},
+  linkIcon,
+}: {
+  skillIcons?: Record<string, string>;
+  linkIcon?: string;
+}) {
   const avatarUrl = `${window.location.origin}${DATA.avatarUrl}`;
 
   const summaryParagraphs = stripMarkdown(DATA.summary)
@@ -352,12 +395,9 @@ export function ResumePDF({ skillIcons = {} }: { skillIcons?: Record<string, str
     .map((p) => p.trim())
     .filter(Boolean);
 
-  const featuredProjects = DATA.projects.filter((p) =>
-    FEATURED_PROJECTS.includes(p.title)
-  );
-
   const workRows = chunk(DATA.work, 2);
-  const projectRows = chunk(featuredProjects, 2);
+  const pdfProjects = DATA.projects.filter((p) => !PDF_EXCLUDED_PROJECTS.includes(p.title));
+  const projectRows = chunk(pdfProjects, 2); // site order, minus PDF exclusions
 
   return (
     <Document>
@@ -439,7 +479,7 @@ export function ResumePDF({ skillIcons = {} }: { skillIcons?: Record<string, str
         <Section title="Projects" />
         {projectRows.map((row, i) => (
           <View key={i} style={s.cardRow}>
-            {row.map((p) => <ProjectCard key={p.title} project={p} />)}
+            {row.map((p) => <ProjectCard key={p.title} project={p} linkIcon={linkIcon} />)}
           </View>
         ))}
 
