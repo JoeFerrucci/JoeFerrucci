@@ -146,7 +146,7 @@ Scheduling SaaS that kills the back-and-forth. Share one link — guests pick a 
 </td>
 <td width="50%" valign="top">
 
-**[Pathfinder](https://www.runpathfinder.com)** &nbsp; *(2026 – Present)*
+**[Pathfinder](https://www.runpathfinder.com)** &nbsp; *(2025 – Present)*
 
 <img src="https://raw.githubusercontent.com/JoeFerrucci/JoeFerrucci/master/public/projects/pathfinder.png" width="100%" />
 
@@ -211,7 +211,7 @@ One wrist. Every room. Instantly discovers every Roku TV and Sonos speaker on yo
 
 <img src="https://raw.githubusercontent.com/JoeFerrucci/JoeFerrucci/master/public/projects/hodu.jpg" width="100%" />
 
-Small Missouri roaster named after the Hebrew word for "give thanks." Single-origin Ethiopia, Colombia, and Guatemala — roasted Tuesday and Friday, shipped within the week. Born out of a closed door and a friend's gift, coffee as a quiet invitation to slow down.
+Small roaster named after the Hebrew word for "give thanks." Single-origin Ethiopia, Colombia, and Guatemala — roasted Tuesday and Friday, shipped within the week. Born out of a closed door and a friend's gift, coffee as a quiet invitation to slow down.
 
 </td>
 <td width="50%" valign="top">

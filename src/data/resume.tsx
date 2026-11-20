@@ -360,7 +360,7 @@ export const DATA = {
       title: "Pathfinder",
       href: "https://www.runpathfinder.com",
       icon: "/projects/pathfinder-icon.png",
-      dates: "2026 - Present",
+      dates: "2025 - Present",
       active: true,
       description:
         "Live group map for run clubs. Start together, finish together — see every runner on the course, who's still out, who's back at the meeting point, and whose location has gone stale. Events with GPX or Strava courses, Lock Screen and Dynamic Island Live Activities, and offline-capable Apple Watch sharing. Shares only the latest position — no track history, no ads.",
@@ -458,7 +458,7 @@ export const DATA = {
       dates: "2019 - Present",
       active: true,
       description:
-        "Hodu Coffee is a small Missouri roaster named after the Hebrew word for \"give thanks.\" Single-origin beans from Ethiopia, Colombia, and Guatemala — roasted Tuesday and Friday, shipped within the week. Born out of a closed door and a friend's gift, it's coffee as a quiet invitation to slow down.",
+        "Hodu Coffee is a small roaster named after the Hebrew word for \"give thanks.\" Single-origin beans from Ethiopia, Colombia, and Guatemala — roasted Tuesday and Friday, shipped within the week. Born out of a closed door and a friend's gift, it's coffee as a quiet invitation to slow down.",
       technologies: [],
       links: [
         {
