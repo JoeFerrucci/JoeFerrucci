@@ -9,6 +9,21 @@ import remarkGfm from 'remark-gfm';
 import rehypePrettyCode from 'rehype-pretty-code';
 import { remarkCodeMeta } from './src/lib/remark-code-meta.ts';
 import { CONFIG } from './src/data/config.ts';
+import { execSync } from 'node:child_process';
+
+// Short SHA of the commit being built. Vercel provides it as an env var;
+// locally we fall back to git, then to "dev" if git isn't available.
+function getCommitSha() {
+  const vercelSha = process.env.VERCEL_GIT_COMMIT_SHA;
+  if (vercelSha) return vercelSha.slice(0, 7);
+  try {
+    return execSync('git rev-parse --short=7 HEAD', { stdio: ['ignore', 'pipe', 'ignore'] })
+      .toString()
+      .trim();
+  } catch {
+    return 'dev';
+  }
+}
 
 /** @type {import('rehype-pretty-code').Options} */
 const prettyCodeOptions = {
@@ -18,6 +33,9 @@ const prettyCodeOptions = {
   },
   keepBackground: false,
 };
+
+// Exposed to client code as import.meta.env.PUBLIC_COMMIT_SHA.
+process.env.PUBLIC_COMMIT_SHA = getCommitSha();
 
 // https://astro.build/config
 export default defineConfig({

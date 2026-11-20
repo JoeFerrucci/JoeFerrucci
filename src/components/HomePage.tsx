@@ -11,6 +11,13 @@ import ProjectsSection from "@/components/section/projects-section";
 import WorkSection from "@/components/section/work-section";
 import { ArrowUpRight } from "lucide-react";
 import { ResumeDownloadButton } from "@/components/ResumeDownloadButton";
+import {
+  Tooltip,
+  TooltipArrow,
+  TooltipContent,
+  TooltipProvider,
+  TooltipTrigger,
+} from "@/components/ui/tooltip";
 
 const BLUR_FADE_DELAY = 0.04;
 
@@ -19,7 +26,17 @@ const sectionComponents: Record<string, React.ReactNode> = {
     <section id="about">
       <div className="flex min-h-0 flex-col gap-y-4">
         <BlurFade delay={BLUR_FADE_DELAY * 3}>
-          <h2 className="text-xl font-bold">{DATA.sections.about.heading}</h2>
+          <TooltipProvider delayDuration={1000}>
+            <Tooltip>
+              <TooltipTrigger asChild>
+                <h2 className="w-fit cursor-default text-xl font-bold">{DATA.sections.about.heading}</h2>
+              </TooltipTrigger>
+              <TooltipContent side="right" sideOffset={8} className="font-mono">
+                <p>{import.meta.env.PUBLIC_COMMIT_SHA} 🤫</p>
+                <TooltipArrow className="fill-primary" />
+              </TooltipContent>
+            </Tooltip>
+          </TooltipProvider>
         </BlurFade>
         <BlurFade delay={BLUR_FADE_DELAY * 4}>
           <div className="prose max-w-full text-pretty font-sans leading-relaxed text-muted-foreground dark:prose-invert">
