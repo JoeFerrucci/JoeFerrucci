@@ -43,9 +43,8 @@ const WHITE        = "#ffffff";
 const BADGE_BG     = "#eff6ff"; // blue-50
 const BADGE_BORDER = "#bfdbfe"; // blue-200
 const BADGE_FG     = "#1d4ed8"; // blue-700
-const SKILL_BG     = "#eef2ff"; // indigo-50
-const SKILL_BORDER = "#c7d2fe"; // indigo-200
-const SKILL_FG     = "#4338ca"; // indigo-700
+// Skill chips mirror the website: white chip, light border, dark text + icon
+export const SKILL_ICON_COLOR = FG;
 
 const H_PAD = 48;
 const V_PAD = 40;
@@ -226,14 +225,18 @@ const s = StyleSheet.create({
   // ── Skills chips ─────────────────────────────────────────────
   skillsWrap: { flexDirection: "row", flexWrap: "wrap", gap: 4 },
   skillChip: {
-    backgroundColor: SKILL_BG,
-    borderWidth: 0.5,
-    borderColor: SKILL_BORDER,
-    borderRadius: 4,
+    flexDirection: "row",
+    alignItems: "center",
+    gap: 4,
+    backgroundColor: WHITE,
+    borderWidth: 0.75,
+    borderColor: BORDER,
+    borderRadius: 6,
     paddingHorizontal: 7,
-    paddingVertical: 3,
+    paddingVertical: 3.5,
   },
-  skillChipText: { fontSize: 7.5, fontWeight: 500, color: SKILL_FG },
+  skillIcon: { width: 8, height: 8, borderRadius: 1.5 },
+  skillChipText: { fontSize: 7.5, fontWeight: 500, color: FG },
   // ── Project cards ────────────────────────────────────────────
   projectCardTopRow: {
     flexDirection: "row",
@@ -341,7 +344,7 @@ function ProjectCard({ project: p }: { project: ProjectEntry }) {
   );
 }
 
-export function ResumePDF() {
+export function ResumePDF({ skillIcons = {} }: { skillIcons?: Record<string, string> }) {
   const avatarUrl = `${window.location.origin}${DATA.avatarUrl}`;
 
   const summaryParagraphs = stripMarkdown(DATA.summary)
@@ -425,6 +428,7 @@ export function ResumePDF() {
           <View style={s.skillsWrap}>
             {DATA.skills.map((sk) => (
               <View key={sk.name} style={s.skillChip}>
+                {skillIcons[sk.name] && <Image src={skillIcons[sk.name]} style={s.skillIcon} />}
                 <Text style={s.skillChipText}>{sk.name}</Text>
               </View>
             ))}
